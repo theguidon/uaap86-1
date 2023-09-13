@@ -15,6 +15,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -32,6 +33,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -49,6 +51,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -66,6 +69,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -83,6 +87,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -100,6 +105,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -117,6 +123,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -134,6 +141,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -151,6 +159,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -168,6 +177,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -185,6 +195,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -202,6 +213,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -219,6 +231,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -236,6 +249,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -253,6 +267,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -270,6 +285,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -287,6 +303,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -304,6 +321,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
     {
@@ -321,6 +339,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
+        "side-image": "https://picsum.photos/200",
       },
     },
   ],
