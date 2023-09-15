@@ -1,2 +1,123 @@
+/* note: landing and editors-msg share the same background, but background will be kept in landing */
+/* note: default font size for website is 13px */
+
+/*
+  z-index
+  -1 bg image
+  0 others
+  1 slideshow container
+  2 slideshow
+  3 text
+*/
+
+@font-face {
+  font-family: "PP Monument Black";
+  src: url(/src/assets/fonts/PPMonument/PPMonumentExtended-Black.otf);
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url(/src/assets/fonts/GTAmerica/GT-America-Bold.ttf);
+}
+
 #landing {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+}
+
+/* background (shared by landing and editors-msg) */
+
+#landing .landing-bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* main container */
+
+#landing .landing-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* text container and children */
+
+#landing .landing-text-container {
+  margin-top: 5rem;
+  margin-left: 4rem;
+  color: #ffffff;
+  z-index: 3;
+}
+
+#landing .landing-logo {
+  width: 13rem;
+  height: auto;
+}
+
+#landing .landing-title {
+  font-family: "PP Monument Black";
+  margin: 1rem 0 2rem 0;
+}
+
+#landing .landing-title p {
+  margin: 0;
+  line-height: 1;
+}
+
+#landing .landing-title p:nth-child(1) {
+  font-size: 11.2rem;
+}
+
+#landing .landing-title p:nth-child(2) {
+  font-size: 5.5rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+#landing .landing-label {
+  font-family: "GT America Bold";
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  width: fit-content;
+  background: #001092;
+}
+
+/* slideshow container and children */
+
+#landing .landing-slideshow-container {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  height: 800px;
+  width: 550px;
+  overflow: hidden;
+  clip-path: url(#landing-slideshow-mask);
+  filter: url(#landing-slideshow-filter);
+}
+
+#landing .landing-slideshow-bg {
+  filter: url(#landing-slideshow-filter);
+}
+
+#landing .landing-slideshow {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  animation: landing-slideshow-anim 30s infinite linear;
+}
+
+@keyframes landing-slideshow-anim {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: -7600px;
+  }
 }
