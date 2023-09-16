@@ -1,2 +1,119 @@
+@font-face {
+  font-family: "PP Monument Black";
+  src: url(/src/assets/fonts/PPMonument/PPMonumentExtended-Black.otf);
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url(/src/assets/fonts/GTAmerica/GT-America-Bold.ttf);
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url(/src/assets/fonts/GTAmerica/GT-America-Regular.ttf);
+}
+
 #editors-msg {
+  width: 100%;
+  height: min(100dvh, fit-content);
+}
+
+/* main container */
+
+#editors-msg .editors-msg-main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+  height: 100%;
+  padding: 5rem 8rem;
+}
+
+#editors-msg .editors-msg-slogan-container,
+.editors-msg-info-container {
+  height: fit-content;
+  color: #ffffff;
+}
+
+/* text container and children */
+
+#editors-msg .editors-msg-slogan-container {
+  flex: 3;
+  min-width: 600px;
+  max-width: 750px;
+}
+
+#editors-msg .editors-msg-slogan-container p {
+  font-family: "PP Monument Black";
+  font-size: 5rem;
+  margin: 0;
+  line-height: 1;
+}
+
+#editors-msg .editors-msg-slogan:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+#editors-msg .editors-msg-slogan:nth-child(2) {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+  text-align: right;
+}
+
+/* workaround for placing the img in the right place */
+#editors-msg .editors-msg-slogan:nth-child(3) img {
+  margin-left: -120px;
+}
+
+#editors-msg .editors-msg-slogan:nth-child(4) {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+  text-align: right;
+}
+
+/* info container and children */
+
+#editors-msg .editors-msg-info-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+#editors-msg .editors-msg-info-container > div {
+  height: 100%;
+  min-width: 30ch;
+  max-width: 70ch;
+}
+
+#editors-msg .editors-msg-info-container h1 {
+  font-family: "GT America Bold";
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#editors-msg .editors-msg-info-container p {
+  font-family: "GT America Regular";
+  margin-bottom: 2rem;
+}
+
+#editors-msg .editors-msg-info-container a {
+  display: block;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.3rem;
+  font-family: "GT America Bold";
+  color: #1c4480;
+  background: #ffffff;
+}
+
+#editors-msg .editors-msg-info-container a:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+  opacity: 0.9;
+  transition: all 0.2s;
 }
