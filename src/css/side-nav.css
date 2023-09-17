@@ -7,28 +7,42 @@
 }
 #side-nav .content_container{
     padding-left: 2em;
+    padding-right: 2em;
 }
 #side-nav .logo_container{
     display: block;
     position: relative;
     padding-top: 4em;
 }
-#side-nav .logo_container .UAAP{
-    position: absolute;
-    top: 30%;
+#side-nav .header_container{
+    display: block;
+    position: relative;
+    padding-top: 2em;
+}
+#side-nav .header_container .UAAP{
     color: #ffffff;
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: 100%;
     transform: scale(1, 0.6);
+    line-height: 0;
 }
-#side-nav .logo_container .Season86{
-    position: absolute;
-    top: 150%;
-    font-size: 5rem;
+#side-nav .header_container .Season86{
+    font-size: 4rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;;
     transform: scale(1, 0.7);
-    padding: 0;
-    margin: 0;
+    padding-top: 1rem;
+}
+#side-nav .sports_list{
+    position: relative;
+    list-style-type: none;
+}
+#side-nav .sports_list li{
+    margin-bottom: 5px;
+}
+#side-nav .sports_list a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
