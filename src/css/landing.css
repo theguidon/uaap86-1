@@ -26,14 +26,25 @@
   height: 100dvh;
 }
 
-/* background (shared by landing and editors-msg) */
+/* background (shared by landing and editors-msg divs) */
 
-#landing .landing-bg {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
+.landing-editors-msg-bg {
+  height: fit-content;
+  background: linear-gradient(-45deg, #3b72c4, #3060bc, #1736a5, #031395);
+  background-size: 400% 400%;
+  animation: bg-gradient 20s ease infinite;
+}
+
+@keyframes bg-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* main container */
