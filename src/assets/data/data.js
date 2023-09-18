@@ -20,6 +20,8 @@ export const data = {
         //   pictures from lorem picsum https://picsum.photos/
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.3",
+        "title-color": "#FFC1D5",
       },
     },
     {
@@ -38,6 +40,8 @@ export const data = {
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.3",
+        "title-color": "#FFC1D5",
       },
     },
     {
@@ -56,6 +60,8 @@ export const data = {
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFE07C",
       },
     },
     {
@@ -74,6 +80,8 @@ export const data = {
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFE07C",
       },
     },
     {
@@ -92,6 +100,8 @@ export const data = {
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFD38C",
       },
     },
     {
@@ -110,6 +120,8 @@ export const data = {
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFD38C",
       },
     },
     {
@@ -128,6 +140,8 @@ export const data = {
           "linear-gradient(90deg, rgba(110, 207, 189, 0.85) 54.27%, rgba(61, 113, 140, 0.85) 93.12%, rgba(7, 11, 87, 0.85) 135.35%)",
         "background-image": cheerdance,
         "side-image": sidecheerdance,
+        opacity: "0.8",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -146,6 +160,8 @@ export const data = {
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.8",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -164,6 +180,8 @@ export const data = {
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.8",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -182,6 +200,8 @@ export const data = {
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFE07C",
       },
     },
     {
@@ -200,6 +220,8 @@ export const data = {
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFE07C",
       },
     },
     {
@@ -218,6 +240,8 @@ export const data = {
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFE07C",
       },
     },
     {
@@ -236,6 +260,8 @@ export const data = {
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFE07C",
       },
     },
     {
@@ -254,6 +280,8 @@ export const data = {
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -272,6 +300,8 @@ export const data = {
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -290,6 +320,8 @@ export const data = {
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -308,6 +340,8 @@ export const data = {
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.75",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -326,6 +360,8 @@ export const data = {
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.65",
+        "title-color": "#7CECD7",
       },
     },
     {
@@ -344,6 +380,8 @@ export const data = {
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
         "background-image": "https://picsum.photos/1080/720",
         "side-image": "https://picsum.photos/200",
+        opacity: "0.65",
+        "title-color": "#7CECD7",
       },
     },
   ],
