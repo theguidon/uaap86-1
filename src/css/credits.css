@@ -46,15 +46,25 @@
 
 #credits .credits-WDDP-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 16px; /* Adjust the gap between boxes as needed */
-    width: 50%; /* 2 columns, so each box takes 50% of the width */
+    justify-content: space-between; /* Arrange items with space between them */
+    align-items: center; /* Align items vertically centered */
+    gap: 1rem; /* Adjust the gap between items */
 }
 
 #credits .credits-WDDP-text-bold {
     color: #FFF;
     font-family: "GT America";
     font-size: 18px;
+    font-weight: 700;
 }
 
+#credits .credits-names {
+    display: flex;
+    flex-direction: column; /* Display names in a column */
+    align-items: flex-start; /* Align names to the left */
+    gap: 0.5rem; /* Adjust the gap between names */
+    color: #FFF;
+    font-family: "GT America";
+    font-size: 16px;
+    font-weight: 400;
+}
