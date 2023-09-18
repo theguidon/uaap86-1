@@ -1,2 +1,69 @@
-#category {
+#category-card {
+  position: relative;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+  height: 479px;
+}
+
+#category-text {
+  padding: 160px 120px;
+  flex: 2.5;
+  opacity: 1 !important;
+}
+
+#title {
+  color: #fff;
+  font-family: PP Monument Extended;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#desc {
+  color: #fff;
+  font-family: GT America;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#category-img {
+  flex: 1;
+  padding-right: 2rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
+}
+
+#category-img img {
+  flex: 1;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  transition: left 0.3s, transform 0.3s;
+}
+
+#card:hover {
+  opacity: 1;
+  #category-text #title {
+    color: #ffd38c;
+  }
+  #category-img img {
+    flex: 1;
+    left: 0;
+    transform: translateX(0);
+  }
 }
