@@ -1,7 +1,7 @@
 
 #credits {
     position: relative;
-    background: #031395;
+    background: #001092;
     background-size: 400% 400%;
     animation: bg-gradient 20s ease infinite;
     width: 100%;
@@ -38,6 +38,10 @@
     border-bottom: 2px solid rgba(217, 217, 217, 0.5); /* Color #D9D9D9 with opacity 0.5 */
 }
 
+#credits .credits-head-container > :last-child {
+    margin-bottom: 32px; /* Adjust the margin as needed */
+}
+
 #credits .credits-head-text {
     color: #FFF;
     font-family: "PP Monument";
@@ -52,6 +56,7 @@
     gap: 8px; /* Adjust the gap between items */
     max-width: 414px; /* Set the maximum width for the container */
     margin: 1 auto; /* Center the container horizontally */
+    margin-top: 40px;
 }
 
 #credits .credits-WDDP-text-bold {
