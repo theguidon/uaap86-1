@@ -7,9 +7,9 @@
   flex-direction: row;
   align-items: flex-start;
   position: relative;
-  opacity: 0.3;
   transition: opacity 0.3s;
   height: 479px;
+  gap: 8px;
 }
 
 #category-text {
@@ -34,6 +34,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+  width: 60%;
 }
 
 #category-img {
@@ -57,10 +58,6 @@
 }
 
 #card:hover {
-  opacity: 1;
-  #category-text #title {
-    color: #ffd38c;
-  }
   #category-img img {
     flex: 1;
     left: 0;
