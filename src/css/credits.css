@@ -46,9 +46,12 @@
 
 #credits .credits-WDDP-container {
     display: flex;
+    flex-direction: row; /* Display items in a row */
     justify-content: space-between; /* Arrange items with space between them */
     align-items: center; /* Align items vertically centered */
-    gap: 1rem; /* Adjust the gap between items */
+    gap: 8px; /* Adjust the gap between items */
+    max-width: 414px; /* Set the maximum width for the container */
+    margin: 1 auto; /* Center the container horizontally */
 }
 
 #credits .credits-WDDP-text-bold {
@@ -68,3 +71,4 @@
     font-size: 16px;
     font-weight: 400;
 }
+
