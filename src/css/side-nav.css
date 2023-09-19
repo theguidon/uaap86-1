@@ -2,8 +2,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
 }
 #side-nav .content_container{
     padding-left: 2em;
@@ -11,29 +9,30 @@
 }
 #side-nav .exit{
     position: relative;
-    cursor: pointer
 }
 #side-nav .exit .right_slant{
-    height: 6px;
+    height: 5px;
     background: #fff;
     border-radius: 50px;
     position: absolute;
     transition: 0.3s ease;
     transform: rotate(-45deg);
-    width: 30px;
+    width: 25px;
     transform-origin: right;
-    top: 1.2em;
+    top: 1.4em;
+    cursor: pointer;
 }
 #side-nav .exit .left_slant{
-    height: 6px;
+    height: 5px;
     background: #fff;
     border-radius: 50px;
     position: absolute;
     transition: 0.3s ease;
     transform: rotate(45deg);
-    width: 30px;
+    width: 25px;
     transform-origin: right;
-    top: 2.5em;
+    top: 2.525em;
+    cursor: pointer;
 }
 #side-nav .logo_container{
     display: block;
@@ -71,4 +70,50 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+@media screen and (min-width: 0px) and (max-width: 679px){
+    #side-nav .side_nav_bg{
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+@media screen and (min-width: 680px) and (max-width: 1279px){
+    #side-nav .side_nav_bg{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 680px) {
+    #side-nav .Long_logo{
+        width: 10em;
+    }
+    #side-nav .header_container .UAAP{
+        font-size: 5rem;
+    }
+    #side-nav .header_container .Season86{
+        font-size: 2.5rem;
+    }
+    #side-nav .sports_list a{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width: 768px){
+    
+}
+@media screen and (min-width: 1024px){
+    
+}
+@media screen and (min-width: 1280px){
+    #side-nav .side_nav_bg{
+        min-width: 10%;
+        min-height: 100%;
+    }
+    #side-nav .header_container .UAAP{
+        font-size: 6rem;
+    }
+    #side-nav .header_container .Season86{
+        font-size: 3rem;
+    }
+    #side-nav .sports_list a{
+        font-size: 1rem;
+    }
 }
