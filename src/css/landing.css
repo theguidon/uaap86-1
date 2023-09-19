@@ -98,11 +98,6 @@
   width: 550px;
   overflow: hidden;
   clip-path: url(#landing-slideshow-mask);
-  filter: url(#landing-slideshow-filter);
-}
-
-#landing .landing-slideshow-bg {
-  filter: url(#landing-slideshow-filter);
 }
 
 #landing .landing-slideshow {
