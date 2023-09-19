@@ -9,6 +9,32 @@
     padding-left: 2em;
     padding-right: 2em;
 }
+#side-nav .exit{
+    position: relative;
+    cursor: pointer
+}
+#side-nav .exit .right_slant{
+    height: 6px;
+    background: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.3s ease;
+    transform: rotate(-45deg);
+    width: 30px;
+    transform-origin: right;
+    top: 1.2em;
+}
+#side-nav .exit .left_slant{
+    height: 6px;
+    background: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.3s ease;
+    transform: rotate(45deg);
+    width: 30px;
+    transform-origin: right;
+    top: 2.5em;
+}
 #side-nav .logo_container{
     display: block;
     position: relative;
