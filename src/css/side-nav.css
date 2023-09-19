@@ -1,3 +1,12 @@
+#side-nav .screen_filter{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    backdrop-filter: blur(4px);
+    backdrop-filter: brightness(50%);
+}
 #side-nav .side_nav_bg {
     position: fixed;
     top: 0;
