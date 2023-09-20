@@ -21,9 +21,8 @@
 }
 
 #landing {
-  position: relative;
   width: 100%;
-  height: 800px; /* height from slideshow container */
+  height: fit-content;
 }
 
 /* background (shared by landing and editors-msg divs) */
@@ -36,14 +35,18 @@
 /* main container */
 
 #landing .landing-main-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) minmax(400px, 500px);
+  /* display: flex; */
   width: 100%;
-  height: 100%;
+  height: fit-content;
+  overflow: hidden;
 }
 
 /* text container and children */
 
 #landing .landing-text-container {
+  justify-self: stretch;
   color: #ffffff;
   z-index: 3;
   display: flex;
@@ -93,9 +96,11 @@
 #landing .landing-slideshow-container {
   position: absolute;
   right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 1;
   height: 800px;
-  width: 550px;
+  width: 660px;
   overflow: hidden;
   clip-path: url(#landing-slideshow-mask);
 }
@@ -113,5 +118,65 @@
   }
   100% {
     left: -7600px;
+  }
+}
+
+/* --- media queries --- */
+
+/* main container */
+
+@media only screen and (min-width: 511px) and (max-width: 900px) {
+  #landing .landing-main-container {
+    grid-template-rows: 100px 800px;
+    grid-template-columns: none;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #landing .landing-main-container {
+    grid-template-rows: 260px 500px;
+    grid-template-columns: none;
+    height: fit-content;
+  }
+}
+
+/* text container */
+
+@media only screen and (max-width: 900px) {
+  #landing .landing-text-container {
+    height: fit-content;
+  }
+
+  #landing .landing-logo {
+    width: 50dvw;
+  }
+
+  #landing .landing-title p:nth-child(1) {
+    font-size: 20dvw;
+  }
+
+  #landing .landing-title p:nth-child(2) {
+    font-size: 9.7dvw;
+  }
+
+  #landing .landing-label {
+    font-size: 4dvw;
+  }
+}
+
+/* slideshow container */
+@media only screen and (max-width: 900px) {
+  #landing .landing-slideshow-container {
+    position: static;
+    justify-self: end;
+    align-self: center;
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #landing .landing-slideshow-container {
+    transform: scale(0.6) translateX(-50px);
   }
 }
