@@ -101,7 +101,7 @@
   z-index: 1;
   height: 800px;
   width: 660px;
-  overflow-x: hidden;
+  overflow: hidden;
   clip-path: url(#landing-slideshow-mask);
 }
 
@@ -109,7 +109,7 @@
   position: absolute;
   z-index: 2;
   height: 100%;
-  animation: landing-slideshow-anim 30s infinite linear;
+  animation: landing-slideshow-anim 100s infinite linear;
 }
 
 @keyframes landing-slideshow-anim {
