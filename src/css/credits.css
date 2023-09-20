@@ -1,98 +1,112 @@
-
 #credits {
-    position: absolute; /* Change from relative to absolute */
-    bottom: 0; /* Stick to the bottom of the viewport */
-    left: 0;
-    width: 100%;
-    padding: 80px 151px;
-    background: #001092;
+  width: 100%;
+  padding: 4rem 1.5rem;
+  background: #001092;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#credits .credit-main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: white;
-    gap: 32px;
-    width: 100%;
-
+#credits .credits-main-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  max-width: 60rem;
 }
 
 #credits .credits-head-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    align-items: flex-start;
-    gap: 24px;
-    border-bottom: 2px solid rgba(217, 217, 217, 0.5); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+  gap: 24px;
+  border-bottom: 2px solid rgba(217, 217, 217, 0.5);
 }
 
 #credits .credits-head-container > :last-child {
-    margin-bottom: 32px; /* Adjust the margin as needed */
+  margin-bottom: 2rem;
 }
 
 #credits .credits-head-text {
-    color: #FFF;
-    font-family: "PP Monument";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 140%; /* 44.8px */
+  color: #fff;
+  font-family: "PP Monument";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%; /* 44.8px */
 }
 
 #credits .credits-WDDP-container {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 8px;
-    max-width: 414px; 
-    margin: 1 auto; 
-    margin-top: 40px;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 #credits .credits-WDDP-text-bold {
-    color: #FFF;
-    font-family: "GT America";
-    font-size: 18px;
-    font-weight: 700;
+  color: #fff;
+  font-family: "GT America";
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
 }
 
 #credits .credits-names {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;  
-    color: #FFF;
-    font-family: "GT America";
-    font-size: 16px;
-    font-weight: 400;
+  color: #fff;
+  font-family: "GT America";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
 }
 
-#credits .credits-names:nth-child(1),
-#credits .credits-names:nth-child(2) {
-    margin-bottom: 32px;
+#top-left-blur {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-#top-left-blur{
-    position: absolute;
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#top-right-blur{
-    position: absolute;
-    right: 0px;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
+#top-right-blur {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 #bottom-right-blur {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media (min-width: 640px) {
+  #credits {
+    padding: 5.5rem 3rem;
+  }
+
+  #credits .credits-WDDP-container {
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #credits {
+    padding: 7rem 4.5rem;
+  }
+
+  #credits .credits-WDDP-container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 5rem;
+  }
+
+  #credits .credits-head-text {
+    font-size: 2rem;
+  }
 }
