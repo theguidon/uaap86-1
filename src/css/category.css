@@ -2,7 +2,7 @@
   position: relative;
 }
 
-#card {
+#category-card .card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -10,15 +10,16 @@
   transition: opacity 0.3s;
   height: 479px;
   gap: 8px;
+  opacity: 0.75;
 }
 
-#category-text {
+#category-card .category-text {
   padding: 160px 120px;
   flex: 2.5;
   opacity: 1 !important;
 }
 
-#title {
+#category-card .title {
   color: #fff;
   font-family: PP Monument Extended;
   font-size: 56px;
@@ -27,7 +28,7 @@
   line-height: normal;
 }
 
-#desc {
+#category-card .desc {
   color: #fff;
   font-family: GT America;
   font-size: 16px;
@@ -37,7 +38,7 @@
   width: 60%;
 }
 
-#category-img {
+#category-card .category-img {
   flex: 1;
   padding-right: 2rem;
   position: relative;
@@ -46,7 +47,7 @@
   height: 100%;
 }
 
-#category-img img {
+#category-card .category-img img {
   flex: 1;
   height: auto;
   display: block;
@@ -57,8 +58,8 @@
   transition: left 0.3s, transform 0.3s;
 }
 
-#card:hover {
-  #category-img img {
+#category-card .card:hover {
+  .category-img img {
     flex: 1;
     left: 0;
     transform: translateX(0);
