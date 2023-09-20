@@ -7,6 +7,7 @@
   overflow-y: scroll;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
+  transition: translate 0.1s ease-out;
 }
 #side-nav::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
