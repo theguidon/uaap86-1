@@ -1,5 +1,6 @@
 #side-nav {
   position: fixed;
+  z-index: 999999999999;
   background-color: #001092;
   max-width: 24.375rem;
   height: 100vh;
