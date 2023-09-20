@@ -1,67 +1,47 @@
-#category-card {
-  position: relative;
+#category {
+  width: 100%;
 }
 
-#category-card .card {
+#category .card {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   transition: opacity 0.3s;
-  height: 479px;
+  height: 100dvh;
   gap: 8px;
-  opacity: 0.75;
-}
-
-#category-card .category-text {
-  padding: 160px 120px;
-  flex: 2.5;
-  opacity: 1 !important;
-}
-
-#category-card .title {
-  color: #fff;
-  font-family: PP Monument Extended;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-
-#category-card .desc {
-  color: #fff;
-  font-family: GT America;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  width: 60%;
-}
-
-#category-card .category-img {
-  flex: 1;
-  padding-right: 2rem;
-  position: relative;
-  box-sizing: border-box;
+  background-size: cover;
   overflow: hidden;
-  height: 100%;
 }
 
-#category-card .category-img img {
-  flex: 1;
-  height: auto;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  height: 100%;
-  transition: left 0.3s, transform 0.3s;
+#category .category-text {
+  padding: 2.5rem 1.5rem;
+  overflow: hidden;
 }
 
-#category-card .card:hover {
-  .category-img img {
-    flex: 1;
-    left: 0;
-    transform: translateX(0);
-  }
+#category .title {
+  color: #fff;
+  font-family: "PP Monument";
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#category .desc {
+  color: #fff;
+  font-family: "GT America";
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5rem;
+}
+
+#category .category-img {
+  height: 30rem;
+  translate: 0 10%;
+}
+
+#category .category-img img {
+  transform: translateX(0);
 }
