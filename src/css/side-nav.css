@@ -45,7 +45,6 @@
   position: fixed;
   inset: 2rem auto auto 2rem;
   cursor: pointer;
-  mix-blend-mode: difference;
   z-index: 999;
 }
 #side-nav .Long_logo {
