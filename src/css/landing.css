@@ -101,7 +101,7 @@
   z-index: 1;
   height: 800px;
   width: 660px;
-  overflow: hidden;
+  overflow-x: hidden;
   clip-path: url(#landing-slideshow-mask);
 }
 

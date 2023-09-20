@@ -16,6 +16,7 @@
 #editors-msg {
   width: 100%;
   height: min(100dvh, fit-content);
+  overflow-x: hidden;
 }
 
 /* main container */
@@ -64,7 +65,7 @@
 
 /* workaround for placing the img in the right place */
 #editors-msg .editors-msg-slogan:nth-child(3) img {
-  margin-left: -120px;
+  margin-left: -50px;
 }
 
 #editors-msg .editors-msg-slogan:nth-child(4) {
