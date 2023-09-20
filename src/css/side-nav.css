@@ -1,10 +1,10 @@
 #side-nav {
-  position: absolute;
+  position: fixed;
   background-color: #001092;
   width: 100%;
   max-width: 24.375rem;
-  min-height: 100vh;
-  padding: 2rem;
+  height: 100vh;
+  overflow-y: scroll;
 }
 #side-nav .blur {
   position: absolute;
@@ -24,9 +24,9 @@
   overflow: hidden;
   pointer-events: none;
 }
-#side-nav .content_container {
-  padding-left: 2em;
-  padding-right: 2em;
+#side-nav .content-container {
+  position: relative;
+  padding: 2rem;
 }
 #side-nav .exit {
   position: fixed;
