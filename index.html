@@ -67,11 +67,88 @@
     <link rel="stylesheet" href="./src/css/category.css" />
     <link rel="stylesheet" href="./src/css/article.css" />
     <link rel="stylesheet" href="./src/css/credits.css" />
+    <script type="module" src="./src/js/article.js"></script>
+    <script type="module" src="./src/js/category.js"></script>
+    <script type="module" src="./src/js/side-nav.js"></script>
   </head>
   <body>
-    <div id="side-nav"></div>
-    <div id="landing"></div>
-    <div id="editors-msg"></div>
+    <div id="side-nav" data-active="true">
+      <img class="exit" src="./src/assets/images/close.svg" alt="" />
+      <div class="content-container">
+        <div class="blur-container">
+          <img class="blur" src="./src/assets/images/blur1.svg" alt="" />
+          <img class="blur" src="./src/assets/images/blur2.svg" alt="" />
+        </div>
+        <img class="Long_logo" src="./src/assets/images/Long_Logo.svg" />
+        <div class="header_container">
+          <h1 class="UAAP">UAAP</h1>
+          <h1 class="Season86">SEASON 86</h1>
+        </div>
+        <ul class="sports_list">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/">MESSAGE FROM THE EDITORS</a></li>
+          <li><a href="/">BADMINTON</a></li>
+          <li><a href="/">BASKETBALL</a></li>
+          <li><a href="/">BEACH VOLLEYBALL</a></li>
+          <li><a href="/">CHEERDANCE</a></li>
+          <li><a href="/">CHESS</a></li>
+          <li><a href="/">JUDO</a></li>
+          <li><a href="/">SWIMMING</a></li>
+          <li><a href="/">TABLE TENNIS</a></li>
+          <li><a href="/">TAEKWONDO</a></li>
+          <li><a href="/">TRACK AND FIELD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="landing-editors-msg-bg">
+      <div id="landing">
+        <img class="open" src="./src/assets/images/menu-open.svg" alt="" />
+        <div class="landing-text-container">
+          <img class="landing-logo" src="./src/assets/images/logo.svg" />
+          <div class="landing-title">
+            <p>UAAP</p>
+            <p>SEASON 86</p>
+          </div>
+          <div class="landing-label">FIRST SEMESTER</div>
+        </div>
+        <div class="landing-slideshow"></div>
+      </div>
+      <div id="editors-msg">
+        <div class="editors-msg-main-container">
+          <div class="editors-msg-slogan-container">
+            <div class="editors-msg-slogan">
+              <p>BLAZING</p>
+              <img src="/src/assets/images/editors-msg-underline-1.svg" />
+            </div>
+            <div class="editors-msg-slogan">
+              <p>THE</p>
+              <img src="/src/assets/images/editors-msg-underline-2.svg" />
+            </div>
+            <div class="editors-msg-slogan">
+              <p>ATENEAN</p>
+              <img src="/src/assets/images/editors-msg-underline-3.svg" />
+            </div>
+            <div class="editors-msg-slogan">
+              <p>TRAIL</p>
+              <img src="/src/assets/images/editors-msg-underline-4.svg" />
+            </div>
+          </div>
+          <div class="editors-msg-info-container">
+            <div>
+              <h1>A MESSAGE FROM THE EDITORS</h1>
+              <p>
+                REJUVENATED FOR the next fight ahead of them, the new wave of
+                Ateneo student-athletes, coaches, and personnel look to put
+                their stamp on the University Athletic Association of
+                Philippines (UAAP) Season 86 stage.
+              </p>
+              <!-- opens article page to message from editors -->
+              <a>Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="category"></div>
     <div id="article"></div>
     <div id="credits">
@@ -144,7 +221,5 @@
         </div>
       </footer>
     </div>
-    <script type="module" src="./src/js/article.js"></script>
-    <script type="module" src="./src/js/category.js"></script>
   </body>
 </html>
