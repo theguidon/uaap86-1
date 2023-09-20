@@ -20,8 +20,8 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
         //   pictures from lorem picsum https://picsum.photos/
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "badminton-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/badminton-men.png",
         "title-color": "#FFC1D5",
       },
     },
@@ -39,8 +39,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "badminton-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/badminton-women.png",
         "title-color": "#FFC1D5",
       },
     },
@@ -58,8 +58,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "basketball-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/basketball-men.png",
         "title-color": "#FFE07C",
       },
     },
@@ -77,8 +77,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "basketball-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/basketball-women.png",
         "title-color": "#FFE07C",
       },
     },
@@ -96,8 +96,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "volleyball-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/volleyball-men.png",
         "title-color": "#FFD38C",
       },
     },
@@ -115,8 +115,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "volleyball-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/volleyball-women.png",
         "title-color": "#FFD38C",
       },
     },
@@ -135,7 +135,7 @@ export const data = {
         gradient:
           "linear-gradient(90deg, rgba(110, 207, 189, 0.85) 54.27%, rgba(61, 113, 140, 0.85) 93.12%, rgba(7, 11, 87, 0.85) 135.35%)",
         "background-image": cheerdance,
-        "side-image": basePath + "cheerdance.png",
+        "side-image": basePath + "card-side/cheerdance.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -153,8 +153,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "chess-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/chess-men.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -172,8 +172,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "chess-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/chess-women.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -191,8 +191,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "judo-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/judo-men.png",
         "title-color": "#FFE07C",
       },
     },
@@ -210,8 +210,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "judo-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/judo-women.png",
         "title-color": "#FFE07C",
       },
     },
@@ -229,8 +229,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "swimming-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/swimming-men.png",
         "title-color": "#FFE07C",
       },
     },
@@ -248,8 +248,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "swimming-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/swimming-women.png",
         "title-color": "#FFE07C",
       },
     },
@@ -267,8 +267,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "tabletennis-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/tabletennis-men.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -286,8 +286,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "tabletennis-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/tabletennis-women.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -305,8 +305,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "taekwondo-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/taekwondo-men.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -324,8 +324,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "taekwondo-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/taekwondo-women.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -343,8 +343,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "track-men.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/track-men.png",
         "title-color": "#7CECD7",
       },
     },
@@ -362,8 +362,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
-        "background-image": "https://picsum.photos/1080/720",
-        "side-image": basePath + "track-women.png",
+        "background-image": basePath + "card-background/",
+        "side-image": basePath + "card-side/track-women.png",
         "title-color": "#7CECD7",
       },
     },
