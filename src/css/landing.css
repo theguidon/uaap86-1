@@ -16,6 +16,15 @@
   height: 100vh;
 }
 
+/* side nav */
+
+#landing .open {
+  position: absolute;
+  inset: 2.5rem auto auto 2rem;
+  cursor: pointer;
+  z-index: 999;
+}
+
 /* background (shared by landing and editors-msg divs) */
 
 .landing-editors-msg-bg {
@@ -43,16 +52,14 @@
   font-weight: 800;
 }
 
-#landing .landing-title p {
-  margin: 0;
-}
-
 #landing .landing-title p:nth-child(1) {
   font-size: 5rem;
+  line-height: 1;
 }
 
 #landing .landing-title p:nth-child(2) {
   font-size: 2rem;
+  line-height: 1;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #ffffff;
 }
