@@ -10,6 +10,12 @@
 #side-nav::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+#side-nav[data-active="true"] {
+  translate: 0;
+}
+#side-nav[data-active="false"] {
+  translate: -100%;
+}
 #side-nav .blur {
   position: absolute;
 }
