@@ -7,7 +7,7 @@ document.head.appendChild(styleElement);
 
 for (let i = 0; i < data.categories.length; i++) {
   const card = `
-    <div class="card" style="
+    <div id="${data.categories[i].category}" class="card" style="
       background: ${data.categories[i].card.gradient}, 
       url(${data.categories[i].card["background-image"]}); 
     ">

@@ -3,15 +3,16 @@
 }
 
 #category .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  cursor: pointer;
   transition: opacity 0.3s;
-  height: 100dvh;
   gap: 8px;
   background-size: cover;
   overflow: hidden;
+  height: 32rem;
 }
 
 #category .category-text {
@@ -31,16 +32,82 @@
   font-family: "GT America";
   font-size: 1rem;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 1.5rem;
 }
 
 #category .category-img {
-  height: 20rem;
+  position: absolute;
+  height: 15rem;
+  bottom: 0;
+  left: 50%;
+  translate: -50%;
+  transition: translate 0.3s;
 }
 
-#category .category-img img {
-  transform: translateX(0);
+@media (min-width: 1024px) {
+  #category .card {
+    flex-direction: row;
+    opacity: 0.75;
+  }
+
+  #category .category-text {
+    padding: 6rem 4rem;
+  }
+
+  #category .title {
+    font-size: 2.25rem;
+  }
+
+  #category .desc {
+    max-width: 20rem;
+  }
+
+  #category .card:hover {
+    opacity: 1;
+    & .category-img {
+      translate: 0;
+    }
+  }
+
+  #category .category-img {
+    height: 20rem;
+    left: auto;
+    right: 0;
+    translate: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #category .card {
+    opacity: 0.75;
+  }
+
+  #category .card:hover {
+    opacity: 1;
+    & .category-img {
+      translate: 0;
+    }
+  }
+
+  #category .category-text {
+    padding: 10rem 7.5rem;
+  }
+
+  #category .title {
+    font-size: 3.5rem;
+  }
+
+  #category .desc {
+    max-width: 30rem;
+  }
+
+  #category .category-img {
+    height: 27rem;
+    left: auto;
+    right: 0;
+    translate: 100%;
+  }
 }
