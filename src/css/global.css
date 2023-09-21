@@ -23,6 +23,6 @@ html {
 }
 
 /* hack: temporary styles, should toggle when click on category card */
-/* body {
+body {
   overflow: hidden;
-} */
+}

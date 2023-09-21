@@ -5,6 +5,28 @@
   overflow-y: scroll;
   background: white;
 
+  & .back {
+    position: absolute;
+    font-family: "GT America";
+    font-weight: 700;
+    line-height: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.6rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    & .line {
+      width: 100px;
+      height: 3px;
+      background: white;
+    }
+  }
+
   & .content {
     position: static;
 
@@ -20,6 +42,7 @@
         line-height: 3rem;
         font-family: "PP Monument";
         margin-bottom: 1rem;
+        max-width: 65rem;
       }
 
       & h2 {
@@ -28,12 +51,72 @@
         line-height: 1.5rem;
         font-family: "PP Monument";
         margin-bottom: 1rem;
+        max-width: 65rem;
+      }
+
+      & p {
+        font-family: "GT America";
+        text-transform: uppercase;
+        max-width: 65rem;
       }
     }
 
-    & .writeup {
-      white-space: pre-wrap;
+    & .writeup-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 1.5rem;
+      & .writeup {
+        white-space: pre-wrap;
+        max-width: 40rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  #editors-msg-page {
+    & .content {
+      & .header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h1 {
+          font-size: 3rem;
+          line-height: 4rem;
+        }
+        & h2 {
+          font-size: 2rem;
+          line-height: 2rem;
+        }
+      }
+
+      & .writeup-wrapper {
+        padding: 3rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  #editors-msg-page {
+    & .content {
+      & .header {
+        & h1 {
+          font-size: 5.5rem;
+          line-height: 5.6rem;
+        }
+        & h2 {
+          font-size: 2rem;
+          line-height: 2.4rem;
+        }
+      }
+
+      & .writeup-wrapper {
+        padding: 4.75rem;
+      }
     }
   }
 }
