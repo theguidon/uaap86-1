@@ -37,5 +37,3 @@ window.onload = () => {
     });
   }
 };
-
-// <img src=${data.categories[i].article["image-middle"]} alt="" />
