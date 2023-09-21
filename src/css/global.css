@@ -30,4 +30,5 @@ html {
 }
 body:has(#side-nav[data-active="true"]) .filter {
   backdrop-filter: blur(2.5px);
+  pointer-events: auto;
 }
