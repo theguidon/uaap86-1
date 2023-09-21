@@ -15,7 +15,7 @@ const page = `
       </div>
     </div>`;
 
-editorsMsgPage.innerHTML += page;
+editorsMsgPage.innerHTML = page;
 
 document
   .querySelector("#editors-msg-page .back")
