@@ -1,16 +1,15 @@
-import cheerdance from "../images/cheerdance.jpeg";
-
 const basePath = "/";
 
 export const data = {
   categories: [
     {
       category: "Men’s Badminton",
+      captains: ["Pingkoy Salvado"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Breaking the Cycle",
         writer: "Euan Markus",
         "first-two": "THE ATENEO ",
@@ -19,18 +18,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/badminton-men.jpg",
         "side-image": basePath + "card-side/badminton-men.png",
         "title-color": "#FFC1D5",
       },
     },
     {
       category: "Women’s Badminton",
+      captains: ["Mika de Guzman"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Hungry for more",
         writer: "Vincent Somera",
         "first-two": "FRESH OFF ",
@@ -39,18 +39,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/badminton-women.jpg",
         "side-image": basePath + "card-side/badminton-women.png",
         "title-color": "#FFC1D5",
       },
     },
     {
       category: "Men’s Basketball",
+      captains: ["Chris Koon", "Sean Quitevis"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Enriching a Golden Legacy",
         writer: "Ralph Anthony Bautista",
         "first-two": "REELING FROM ",
@@ -59,18 +60,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/basketball-men.jpg",
         "side-image": basePath + "card-side/basketball-men.png",
         "title-color": "#FFE07C",
       },
     },
     {
       category: "Women’s Basketball",
+      captains: ["Jhazmin Joson", "Sandra Villacruz"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Beyond the Horizon",
         writer: "Eury See",
         "first-two": "AFTER STUNNING ",
@@ -79,18 +81,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/basketball-women.jpg",
         "side-image": basePath + "card-side/basketball-women.png",
         "title-color": "#FFE07C",
       },
     },
     {
       category: "Men’s Beach Volleyball",
+      captains: ["Amil Pacino"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Strength in the Sands",
         writer: "Caitlin Bernal",
         "first-two": "SEASON 85 ",
@@ -99,18 +102,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/volleyball-men.jpg",
         "side-image": basePath + "card-side/volleyball-men.png",
         "title-color": "#FFD38C",
       },
     },
     {
       category: "Women’s Beach Volleyball",
+      captains: ["Jana Cane"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Bolder and Better",
         writer: "Marit Samson",
         "first-two": "BUDDING GROWTH ",
@@ -119,18 +123,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/volleyball-women.jpg",
         "side-image": basePath + "card-side/volleyball-women.png",
         "title-color": "#FFD38C",
       },
     },
     {
       category: "Cheerdance",
+      captains: ["Julia Tulagan", "CJ Pagulayan"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Crank it Up",
         writer: "Ralph Anthony Bautista",
         "first-two": "HUNGRY TO ",
@@ -139,18 +144,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(110, 207, 189, 0.85) 54.27%, rgba(61, 113, 140, 0.85) 93.12%, rgba(7, 11, 87, 0.85) 135.35%)",
-        "background-image": cheerdance,
+        "background-image": basePath + "card-background/cheerdance.jpg",
         "side-image": basePath + "card-side/cheerdance.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Men’s Chess",
+      captains: ["Khalil Kis-ing"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Dominate the Boards",
         writer: "Luis Antonio Licas",
         "first-two": "COMING OFF ",
@@ -159,18 +165,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/chess-men.jpg",
         "side-image": basePath + "card-side/chess-men.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Women’s Chess",
+      captains: ["Kristine Mae Flores"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Doubling Down",
         writer: "Jostle Doen Pilayre",
         "first-two": "EXPECTATIONS STACK ",
@@ -179,18 +186,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/chess-women.jpg",
         "side-image": basePath + "card-side/chess-women.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Men’s Judo",
+      captains: ["Eli Claravall"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Back for Bodies",
         writer: "Euan Markus",
         "first-two": "THE ATENEO ",
@@ -199,18 +207,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/judo-men.jpg",
         "side-image": basePath + "card-side/judo-men.png",
         "title-color": "#FFE07C",
       },
     },
     {
       category: "Women’s Judo",
+      captains: ["Yza Claravall"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Climb to the Top",
         writer: "Marit Samson",
         "first-two": "FOR THE ",
@@ -219,18 +228,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/judo-women.jpg",
         "side-image": basePath + "card-side/judo-women.png",
         "title-color": "#FFE07C",
       },
     },
     {
       category: "Men’s Swimming",
+      captains: ["Rian Tirol"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Born to Swim",
         writer: "Matthea P. Lazo",
         "first-two": "SEVEN YEARS ",
@@ -239,18 +249,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/swimming-men.jpg",
         "side-image": basePath + "card-side/swimming-men.png",
         "title-color": "#FFE07C",
       },
     },
     {
       category: "Women’s Swimming",
+      captains: ["Marjorie Manguiat"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Built to Last",
         writer: "Eury See",
         "first-two": "RIDING ON ",
@@ -259,18 +270,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/swimming-women.jpg",
         "side-image": basePath + "card-side/swimming-women.png",
         "title-color": "#FFE07C",
       },
     },
     {
       category: "Men’s Table Tennis",
+      captains: ["Andrew Uy", "Zherdel Fresco"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Conquer the Competition",
         writer: "Caitlin Bernal",
         "first-two": "THE ATENEO ",
@@ -279,18 +291,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/tabletennis-men.jpg",
         "side-image": basePath + "card-side/tabletennis-men.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Women’s Table Tennis",
+      captains: ["Kathleene Bulaqueña", "Ann Gella Borbon"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Drive to Win",
         writer: "Gershon Anapi",
         "first-two": "SEEKING FOR ",
@@ -299,18 +312,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/tabletennis-women.jpg",
         "side-image": basePath + "card-side/tabletennis-women.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Men’s Taekwondo",
+      captains: ["Angelo Santiago"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Soar Higher",
         writer: "Luis Antonio Licas",
         "first-two": "RIDING HIGH ",
@@ -319,38 +333,43 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/taekwondo-men.jpg",
         "side-image": basePath + "card-side/taekwondo-men.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Women’s Taekwondo",
+      captains: ["Eirenne Lumasang"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Back and Limitless",
         writer: "Lyza Mama",
         "first-two": "DETERMINED TO ",
         text: "leave a lasting impact this year, the Ateneo Women’s Taekwondo Team remains resolute in their mission to showcase unwavering resilience on the mat despite only being six in the roster.\n\nThe Blue Eagles aim to leave no stone unturned in their higher pursuits for success after bagging third place in last year's Poomsae Tournament. Newly appointed Poomsae Head Coach Jeordan Dominguez, a decorated athlete in his own right, is set to bring a wealth of experience and expertise to the table.\n\nAlso hoping to get more out of this year is the sparring team under the steady tutelage of Coach Elmer Rafael. Despite the Women’s team finishing at the bottom of the standings last season, the Eirenne Lumasang-led squad hopes that they can bag more individual accolades this season. Lumasang, being last year’s lone medalist in the Women’s Sparring category, has only spurred the Blue and White’s ambition to breach any roadblocks that come their way.",
+        captains: [""],
+        "captains-images": [""],
       },
+
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/taekwondo-women.jpg",
         "side-image": basePath + "card-side/taekwondo-women.png",
         "title-color": "#FFFFFF",
       },
     },
     {
       category: "Men’s Track and Field",
+      captains: ["Ray Vicente"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Faster, Stronger",
         writer: "Vincent Somera",
         "first-two": "AFTER MAKING ",
@@ -359,18 +378,19 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/track-men.jpg",
         "side-image": basePath + "card-side/track-men.png",
         "title-color": "#7CECD7",
       },
     },
     {
       category: "Women’s Track and Field",
+      captains: ["Jia Kawachi"],
+      "captains-images": [""],
       article: {
-        "image-left": "",
-        "image-right": "",
-        "image-middle": "",
-        photographer: "",
+        "image-left": basePath + "",
+        "image-right": basePath + "",
+        "image-middle": basePath + "",
         title: "Fast and Fearless ",
         writer: "Matthea P. Lazo",
         "first-two": "FOUR FIERCE ",
@@ -379,7 +399,7 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/",
+        "background-image": basePath + "card-background/track-women.jpg",
         "side-image": basePath + "card-side/track-women.png",
         "title-color": "#7CECD7",
       },

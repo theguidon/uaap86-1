@@ -12,9 +12,12 @@ window.onload = () => {
                 <h1 style="color: ${data.categories[i].card["title-color"]}">${data.categories[i].category}</h1>
                 <h2>${data.categories[i].article.title}</h2>
                 <p>By ${data.categories[i].article.writer}</p>
+                <div class="images-container">
+                  <img src=${data.categories[i].article["image-middle"]} alt="" />
+                </div>
               </div>
               <div class="writeup-wrapper">
-              <p class="writeup"><b>${data.categories[i].article["first-two"]}</b>${data.categories[i].article.text}</p>
+                <p class="writeup"><b>${data.categories[i].article["first-two"]}</b>${data.categories[i].article.text}</p>
               </div>
             </div>`;
 

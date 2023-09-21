@@ -29,7 +29,8 @@
 
 .landing-editors-msg-bg {
   height: fit-content;
-  background: #001092;
+  background: url(../assets/images/bg-landing.png);
+  background-size: cover;
 }
 
 /* text container and children */

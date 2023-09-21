@@ -15,9 +15,21 @@
   height: 32rem;
 }
 
+#category .gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#category .bg-image {
+  width: 100%;
+  position: absolute;
+}
+
 #category .category-text {
   padding: 2.5rem 1.5rem;
   overflow: hidden;
+  z-index: 9;
 }
 
 #category .title {
@@ -45,6 +57,7 @@
   left: 50%;
   translate: -50%;
   transition: translate 0.3s;
+  z-index: 9;
 }
 
 @media (min-width: 640px) {

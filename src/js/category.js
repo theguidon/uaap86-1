@@ -7,19 +7,15 @@ document.head.appendChild(styleElement);
 
 for (let i = 0; i < data.categories.length; i++) {
   const card = `
-    <div id="${data.categories[i].category}" class="card" style="
-      background: ${data.categories[i].card.gradient}, 
-      url(${data.categories[i].card["background-image"]}); 
-    ">
+    <div id="${data.categories[i].category}" class="card">
+      <img class="bg-image" src="${data.categories[i].card["background-image"]}" alt="" loading="lazy">
+      <div class="gradient" style="background: ${data.categories[i].card.gradient}"></div>
       <div class="category-text">
         <div class="title" class="card-title">${data.categories[i].category}</div>
         <div class="desc"><b>${data.categories[i].article["first-two"]}</b>${data.categories[i].article.text}</div>
       </div>
       <img class="category-img" src=${data.categories[i].card["side-image"]} alt="" loading="lazy"/>
     </div>`;
-  // <div class="category-img">
-  //     <div class="side"><img src=${data.categories[i].card["side-image"]} alt="Category Image"></div>
-  //   </div>
 
   categoryContainer.innerHTML += card;
 
