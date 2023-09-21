@@ -1,4 +1,4 @@
-const basePath = "/";
+const basePath = "";
 
 export const data = {
   categories: [
@@ -7,9 +7,9 @@ export const data = {
       captains: ["Pingkoy Salvado"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/badminton-men-1.jpg",
+        "image-middle": basePath + "/article-photos/badminton-mix.jpg",
+        "image-right": basePath + "/article-photos/badminton-men-2.jpg",
         title: "Breaking the Cycle",
         writer: "Euan Markus",
         "first-two": "THE ATENEO ",
@@ -18,8 +18,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/badminton-men.jpg",
-        "side-image": basePath + "card-side/badminton-men.png",
+        "background-image": basePath + "/card-background/badminton-men.jpg",
+        "side-image": basePath + "/card-side/badminton-men.png",
         "title-color": "#FFC1D5",
       },
     },
@@ -28,9 +28,9 @@ export const data = {
       captains: ["Mika de Guzman"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Hungry for more",
         writer: "Vincent Somera",
         "first-two": "FRESH OFF ",
@@ -39,8 +39,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/badminton-women.jpg",
-        "side-image": basePath + "card-side/badminton-women.png",
+        "background-image": basePath + "/card-background/badminton-women.jpg",
+        "side-image": basePath + "/card-side/badminton-women.png",
         "title-color": "#FFC1D5",
       },
     },
@@ -49,9 +49,9 @@ export const data = {
       captains: ["Chris Koon", "Sean Quitevis"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Enriching a Golden Legacy",
         writer: "Ralph Anthony Bautista",
         "first-two": "REELING FROM ",
@@ -60,8 +60,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/basketball-men.jpg",
-        "side-image": basePath + "card-side/basketball-men.png",
+        "background-image": basePath + "/card-background/basketball-men.jpg",
+        "side-image": basePath + "/card-side/basketball-men.png",
         "title-color": "#FFE07C",
       },
     },
@@ -70,9 +70,9 @@ export const data = {
       captains: ["Jhazmin Joson", "Sandra Villacruz"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Beyond the Horizon",
         writer: "Eury See",
         "first-two": "AFTER STUNNING ",
@@ -81,8 +81,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(54, 135, 216, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/basketball-women.jpg",
-        "side-image": basePath + "card-side/basketball-women.png",
+        "background-image": basePath + "/card-background/basketball-women.jpg",
+        "side-image": basePath + "/card-side/basketball-women.png",
         "title-color": "#FFE07C",
       },
     },
@@ -91,9 +91,9 @@ export const data = {
       captains: ["Amil Pacino"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Strength in the Sands",
         writer: "Caitlin Bernal",
         "first-two": "SEASON 85 ",
@@ -102,8 +102,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/volleyball-men.jpg",
-        "side-image": basePath + "card-side/volleyball-men.png",
+        "background-image": basePath + "/card-background/volleyball-men.jpg",
+        "side-image": basePath + "/card-side/volleyball-men.png",
         "title-color": "#FFD38C",
       },
     },
@@ -112,9 +112,9 @@ export const data = {
       captains: ["Jana Cane"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Bolder and Better",
         writer: "Marit Samson",
         "first-two": "BUDDING GROWTH ",
@@ -123,8 +123,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/volleyball-women.jpg",
-        "side-image": basePath + "card-side/volleyball-women.png",
+        "background-image": basePath + "/card-background/volleyball-women.jpg",
+        "side-image": basePath + "/card-side/volleyball-women.png",
         "title-color": "#FFD38C",
       },
     },
@@ -133,9 +133,9 @@ export const data = {
       captains: ["Julia Tulagan", "CJ Pagulayan"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Crank it Up",
         writer: "Ralph Anthony Bautista",
         "first-two": "HUNGRY TO ",
@@ -144,8 +144,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(110, 207, 189, 0.85) 54.27%, rgba(61, 113, 140, 0.85) 93.12%, rgba(7, 11, 87, 0.85) 135.35%)",
-        "background-image": basePath + "card-background/cheerdance.jpg",
-        "side-image": basePath + "card-side/cheerdance.png",
+        "background-image": basePath + "/card-background/cheerdance.jpg",
+        "side-image": basePath + "/card-side/cheerdance.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -154,9 +154,9 @@ export const data = {
       captains: ["Khalil Kis-ing"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Dominate the Boards",
         writer: "Luis Antonio Licas",
         "first-two": "COMING OFF ",
@@ -165,8 +165,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/chess-men.jpg",
-        "side-image": basePath + "card-side/chess-men.png",
+        "background-image": basePath + "/card-background/chess-men.jpg",
+        "side-image": basePath + "/card-side/chess-men.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -175,9 +175,9 @@ export const data = {
       captains: ["Kristine Mae Flores"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Doubling Down",
         writer: "Jostle Doen Pilayre",
         "first-two": "EXPECTATIONS STACK ",
@@ -186,8 +186,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(235, 137, 106, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/chess-women.jpg",
-        "side-image": basePath + "card-side/chess-women.png",
+        "background-image": basePath + "/card-background/chess-women.jpg",
+        "side-image": basePath + "/card-side/chess-women.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -196,9 +196,9 @@ export const data = {
       captains: ["Eli Claravall"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Back for Bodies",
         writer: "Euan Markus",
         "first-two": "THE ATENEO ",
@@ -207,8 +207,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/judo-men.jpg",
-        "side-image": basePath + "card-side/judo-men.png",
+        "background-image": basePath + "/card-background/judo-men.jpg",
+        "side-image": basePath + "/card-side/judo-men.png",
         "title-color": "#FFE07C",
       },
     },
@@ -217,9 +217,9 @@ export const data = {
       captains: ["Yza Claravall"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Climb to the Top",
         writer: "Marit Samson",
         "first-two": "FOR THE ",
@@ -228,8 +228,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(53, 177, 154, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/judo-women.jpg",
-        "side-image": basePath + "card-side/judo-women.png",
+        "background-image": basePath + "/card-background/judo-women.jpg",
+        "side-image": basePath + "/card-side/judo-women.png",
         "title-color": "#FFE07C",
       },
     },
@@ -238,9 +238,9 @@ export const data = {
       captains: ["Rian Tirol"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Born to Swim",
         writer: "Matthea P. Lazo",
         "first-two": "SEVEN YEARS ",
@@ -249,8 +249,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/swimming-men.jpg",
-        "side-image": basePath + "card-side/swimming-men.png",
+        "background-image": basePath + "/card-background/swimming-men.jpg",
+        "side-image": basePath + "/card-side/swimming-men.png",
         "title-color": "#FFE07C",
       },
     },
@@ -259,9 +259,9 @@ export const data = {
       captains: ["Marjorie Manguiat"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Built to Last",
         writer: "Eury See",
         "first-two": "RIDING ON ",
@@ -270,8 +270,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(255, 224, 124, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/swimming-women.jpg",
-        "side-image": basePath + "card-side/swimming-women.png",
+        "background-image": basePath + "/card-background/swimming-women.jpg",
+        "side-image": basePath + "/card-side/swimming-women.png",
         "title-color": "#FFE07C",
       },
     },
@@ -280,9 +280,9 @@ export const data = {
       captains: ["Andrew Uy", "Zherdel Fresco"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Conquer the Competition",
         writer: "Caitlin Bernal",
         "first-two": "THE ATENEO ",
@@ -291,8 +291,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/tabletennis-men.jpg",
-        "side-image": basePath + "card-side/tabletennis-men.png",
+        "background-image": basePath + "/card-background/tabletennis-men.jpg",
+        "side-image": basePath + "/card-side/tabletennis-men.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -301,9 +301,9 @@ export const data = {
       captains: ["Kathleene Bulaqueña", "Ann Gella Borbon"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Drive to Win",
         writer: "Gershon Anapi",
         "first-two": "SEEKING FOR ",
@@ -312,8 +312,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 129, 169, 0.85) 54.27%, rgba(153, 163, 240, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/tabletennis-women.jpg",
-        "side-image": basePath + "card-side/tabletennis-women.png",
+        "background-image": basePath + "/card-background/tabletennis-women.jpg",
+        "side-image": basePath + "/card-side/tabletennis-women.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -322,9 +322,9 @@ export const data = {
       captains: ["Angelo Santiago"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Soar Higher",
         writer: "Luis Antonio Licas",
         "first-two": "RIDING HIGH ",
@@ -333,8 +333,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/taekwondo-men.jpg",
-        "side-image": basePath + "card-side/taekwondo-men.png",
+        "background-image": basePath + "/card-background/taekwondo-men.jpg",
+        "side-image": basePath + "/card-side/taekwondo-men.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -343,9 +343,9 @@ export const data = {
       captains: ["Eirenne Lumasang"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Back and Limitless",
         writer: "Lyza Mama",
         "first-two": "DETERMINED TO ",
@@ -357,8 +357,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(255, 196, 102, 0.85) 54.27%, rgba(105, 130, 255, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/taekwondo-women.jpg",
-        "side-image": basePath + "card-side/taekwondo-women.png",
+        "background-image": basePath + "/card-background/taekwondo-women.jpg",
+        "side-image": basePath + "/card-side/taekwondo-women.png",
         "title-color": "#FFFFFF",
       },
     },
@@ -367,9 +367,9 @@ export const data = {
       captains: ["Ray Vicente"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Faster, Stronger",
         writer: "Vincent Somera",
         "first-two": "AFTER MAKING ",
@@ -378,8 +378,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/track-men.jpg",
-        "side-image": basePath + "card-side/track-men.png",
+        "background-image": basePath + "/card-background/track-men.jpg",
+        "side-image": basePath + "/card-side/track-men.png",
         "title-color": "#7CECD7",
       },
     },
@@ -388,9 +388,9 @@ export const data = {
       captains: ["Jia Kawachi"],
       "captains-images": [""],
       article: {
-        "image-left": basePath + "",
-        "image-right": basePath + "",
-        "image-middle": basePath + "",
+        "image-left": basePath + "/article-photos/",
+        "image-middle": basePath + "/article-photos/",
+        "image-right": basePath + "/article-photos/",
         title: "Fast and Fearless ",
         writer: "Matthea P. Lazo",
         "first-two": "FOUR FIERCE ",
@@ -399,8 +399,8 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(74, 91, 228, 0.85) 54.27%, rgba(110, 207, 189, 0.85) 103.02%)",
-        "background-image": basePath + "card-background/track-women.jpg",
-        "side-image": basePath + "card-side/track-women.png",
+        "background-image": basePath + "/card-background/track-women.jpg",
+        "side-image": basePath + "/card-side/track-women.png",
         "title-color": "#7CECD7",
       },
     },

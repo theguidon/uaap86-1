@@ -13,9 +13,9 @@ window.onload = () => {
                 <h2>${data.categories[i].article.title}</h2>
                 <p>By ${data.categories[i].article.writer}</p>
                 <div class="images-container">
-                  <div class></div>
-                  <div class></div>
-                  <div class></div>
+                    <img src="${data.categories[i].article["image-middle"]}" alt="" loading="lazy"/>
+                    <img src="${data.categories[i].article["image-left"]}" alt="" loading="lazy"/>
+                    <img src="${data.categories[i].article["image-right"]}" alt="" loading="lazy"/>
                 </div>
               </div>
               <div class="writeup-wrapper">
