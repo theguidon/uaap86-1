@@ -19,7 +19,6 @@ export const data = {
       card: {
         gradient:
           "linear-gradient(90deg, rgba(108, 77, 193, 0.85) 54.27%, rgba(253, 156, 187, 0.85) 103.02%)",
-        //   pictures from lorem picsum https://picsum.photos/
         "background-image": basePath + "card-background/",
         "side-image": basePath + "card-side/badminton-men.png",
         "title-color": "#FFC1D5",
