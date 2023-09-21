@@ -21,8 +21,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-/* hack: temporary styles, should toggle when click on category card */
-body {
-  overflow: hidden;
-}

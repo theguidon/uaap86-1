@@ -23,3 +23,8 @@ document
     document.querySelector("body").style.overflow = "auto";
     document.querySelector("#editors-msg-page").style.display = "none";
   });
+
+document.querySelector("#learn-more").addEventListener("click", () => {
+  document.querySelector("body").style.overflow = "hidden";
+  document.querySelector("#editors-msg-page").style.display = "block";
+});
