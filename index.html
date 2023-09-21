@@ -5,6 +5,7 @@
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The GUIDON UAAP Season 86 Primer Volume 1</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Search Engine -->
     <meta
@@ -67,18 +68,163 @@
     <link rel="stylesheet" href="./src/css/category.css" />
     <link rel="stylesheet" href="./src/css/article.css" />
     <link rel="stylesheet" href="./src/css/credits.css" />
-  </head>
-  <body>
-    <div id="side-nav">
-      <img class="sidenav_background" src="./src/assets/images/sidenav_background.svg">
-      <img class="Long_logo" src="./src/assets/images/Long_Logo.svg">
-    </div>
-    <div id="landing"></div>
-    <div id="editors-msg"></div>
-    <div id="category"></div>
-    <div id="article"></div>
-    <div id="credits"></div>
     <script type="module" src="./src/js/article.js"></script>
     <script type="module" src="./src/js/category.js"></script>
+    <script type="module" src="./src/js/side-nav.js"></script>
+  </head>
+
+  <body>
+    <div id="side-nav" data-active="false">
+      <img class="exit" src="./src/assets/images/close.svg" alt="" />
+      <div class="content-container">
+        <div class="blur-container">
+          <img class="blur" src="./src/assets/images/blur1.svg" alt="" />
+          <img class="blur" src="./src/assets/images/blur2.svg" alt="" />
+        </div>
+        <img class="Long_logo" src="./src/assets/images/Long_Logo.svg" />
+        <div class="header_container">
+          <h1 class="UAAP">UAAP</h1>
+          <h1 class="Season86">SEASON 86</h1>
+        </div>
+        <ul class="sports_list">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#Message From the Editors">MESSAGE FROM THE EDITORS</a>
+          </li>
+          <li><a href="#Men’s Badminton">BADMINTON</a></li>
+          <li><a href="#Men’s Basketball">BASKETBALL</a></li>
+          <li><a href="#Men’s Beach Volleyball">BEACH VOLLEYBALL</a></li>
+          <li><a href="#Cheerdance">CHEERDANCE</a></li>
+          <li><a href="#Men’s Chess">CHESS</a></li>
+          <li><a href="#Men’s Judo">JUDO</a></li>
+          <li><a href="#Men’s Swimming">SWIMMING</a></li>
+          <li><a href="#Men’s Table Tennis">TABLE TENNIS</a></li>
+          <li><a href="#Men’s Taekwondo">TAEKWONDO</a></li>
+          <li><a href="#Men’s Track and Field">TRACK AND FIELD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="landing-editors-msg-bg">
+      <div id="landing">
+        <img class="open" src="./src/assets/images/menu-open.svg" alt="" />
+        <div class="landing-text-container">
+          <img class="landing-logo" src="./src/assets/images/logo.svg" />
+          <div class="landing-title">
+            <p>UAAP</p>
+            <p>SEASON 86</p>
+          </div>
+          <div class="landing-label">FIRST SEMESTER</div>
+        </div>
+        <div class="landing-slideshow"></div>
+      </div>
+      <div id="Message From the Editors" />
+      <div id="editors-msg">
+        <div class="editors-msg-main-container">
+          <div class="editors-msg-slogan-container">
+            <div class="editors-msg-slogan">
+              <p>BLAZING</p>
+              <img src="/src/assets/images/editors-msg-underline-1.svg" />
+            </div>
+            <div class="editors-msg-slogan">
+              <p>THE</p>
+              <img src="/src/assets/images/editors-msg-underline-2.svg" />
+            </div>
+            <div class="editors-msg-slogan">
+              <p>ATENEAN</p>
+              <img src="/src/assets/images/editors-msg-underline-3.svg" />
+            </div>
+            <div class="editors-msg-slogan">
+              <p>TRAIL</p>
+              <img src="/src/assets/images/editors-msg-underline-4.svg" />
+            </div>
+          </div>
+          <div class="editors-msg-info-container">
+            <div>
+              <h1>A MESSAGE FROM THE EDITORS</h1>
+              <p>
+                REJUVENATED FOR the next fight ahead of them, the new wave of
+                Ateneo student-athletes, coaches, and personnel look to put
+                their stamp on the University Athletic Association of
+                Philippines (UAAP) Season 86 stage.
+              </p>
+              <!-- opens article page to message from editors -->
+              <a>Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="category"></div>
+    <div id="article"></div>
+    <div id="credits">
+      <!-- <div id="top-left-blur">
+        <img
+          src="./src/assets/images/top-left-blur.svg"
+          alt="Blurred Vector left"
+        />
+      </div>
+      <div id="top-right-blur">
+        <img
+          src="./src/assets/images/top-right-blur.svg"
+          alt="Blurred Vector Right"
+        />
+      </div>
+      <div id="bottom-right-blur">
+        <img
+          src="./src/assets/images/bottom-right-blur.svg"
+          alt="Blurred Rectangle"
+        />
+      </div> -->
+      <footer class="credits-main-container">
+        <div class="credits-head-container">
+          <img class="credits-logo" src="./src/assets/images/logo.svg" />
+          <div class="credits-head-text">UAAP SEASON 86 PRIMER</div>
+        </div>
+        <div class="credits-WDDP-container">
+          <div>
+            <div class="credits-WDDP-text-bold">
+              <p>WRITTEN BY</p>
+            </div>
+            <div class="credits-names">
+              <p>
+                Gershon&nbsp;Anapi, Ralph&nbsp;Anthony&nbsp;Bautista,
+                Caitlin&nbsp;Bernal, Matthea&nbsp;P.&nbsp;Lazo,
+                Luis&nbsp;Antonio&nbsp;Licas, Euan&nbsp;Markus, Lyza&nbsp;Mama,
+                Jostle&nbsp;Doen&nbsp;Pilayre, Marit&nbsp;Samson, Eury&nbsp;See,
+                and Vincent&nbsp;Somera
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="credits-WDDP-text-bold">
+              <p>DESIGNED BY</p>
+            </div>
+            <div class="credits-names">
+              <p>Aidan&nbsp;Olarte, and Razel&nbsp;Tan</p>
+            </div>
+          </div>
+          <div>
+            <div class="credits-WDDP-text-bold">
+              <p>PHOTOS BY</p>
+            </div>
+            <div class="credits-names">
+              <p>Names</p>
+            </div>
+          </div>
+          <div>
+            <div class="credits-WDDP-text-bold">
+              <p>DEVELOPED BY</p>
+            </div>
+            <div class="credits-names">
+              <p>
+                Basti&nbsp;de&nbsp;Leon, Waleed&nbsp;Lugod,
+                Ysabella&nbsp;Panghulan, Chesca&nbsp;Reyes, and
+                Luigi&nbsp;Rodriguez
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
