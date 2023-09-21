@@ -4,8 +4,10 @@ const openButton = document.querySelector("#landing .open");
 
 exitButton.addEventListener("click", () => {
   sideNav.dataset.active = "false";
+  document.querySelector("body").style.overflow = "auto";
 });
 
 openButton.addEventListener("click", () => {
   sideNav.dataset.active = "true";
+  document.querySelector("body").style.overflow = "hidden";
 });

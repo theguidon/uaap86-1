@@ -1,3 +1,36 @@
 import { data } from "../assets/data/data";
 
-document.querySelector("#article").innerHTML = `<div>article</div>`;
+const articleElement = document.querySelector("#article");
+window.onload = () => {
+  const cards = document.querySelectorAll(".card");
+  for (let i = 0; i < cards.length; i++) {
+    cards[i].addEventListener("click", () => {
+      const article = `
+            <button class="back"><div class="line"></div><p>Back</p></button>
+            <div class="content">
+              <div class="header" style="background: ${data.categories[i].card.gradient}">
+                <h1 style="color: ${data.categories[i].card["title-color"]}">${data.categories[i].category}</h1>
+                <h2>${data.categories[i].article.title}</h2>
+                <p>By ${data.categories[i].article.writer}</p>
+              </div>
+              <div class="writeup-wrapper">
+              <p class="writeup"><b>${data.categories[i].article["first-two"]}</b>${data.categories[i].article.text}</p>
+              </div>
+            </div>`;
+
+      articleElement.innerHTML = article;
+
+      document.querySelector("#article").style.display = "block";
+
+      document.querySelector("#article .back").addEventListener("click", () => {
+        document.querySelector("body").style.overflow = "auto";
+        document.querySelector("#article").style.display = "none";
+      });
+    });
+  }
+};
+
+// document.querySelector("#category").addEventListener("click", () => {
+//   document.querySelector("body").style.overflow = "hidden";
+//   document.querySelector("#article").style.display = "block";
+// });
