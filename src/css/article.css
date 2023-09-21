@@ -61,6 +61,17 @@
         text-transform: uppercase;
         max-width: 65rem;
       }
+
+      & .images-container {
+        background-color: red;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        & :nth-child(2) {
+          width: 100vw;
+          height: 11rem;
+        }
+      }
     }
 
     & .writeup-wrapper {

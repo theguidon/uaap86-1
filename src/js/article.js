@@ -13,7 +13,9 @@ window.onload = () => {
                 <h2>${data.categories[i].article.title}</h2>
                 <p>By ${data.categories[i].article.writer}</p>
                 <div class="images-container">
-                  <img src=${data.categories[i].article["image-middle"]} alt="" />
+                  <div class></div>
+                  <div class></div>
+                  <div class></div>
                 </div>
               </div>
               <div class="writeup-wrapper">
@@ -23,6 +25,7 @@ window.onload = () => {
 
       articleElement.innerHTML = article;
 
+      document.querySelector("body").style.overflow = "hidden";
       document.querySelector("#article").style.display = "block";
 
       document.querySelector("#article .back").addEventListener("click", () => {
@@ -33,7 +36,4 @@ window.onload = () => {
   }
 };
 
-// document.querySelector("#category").addEventListener("click", () => {
-//   document.querySelector("body").style.overflow = "hidden";
-//   document.querySelector("#article").style.display = "block";
-// });
+// <img src=${data.categories[i].article["image-middle"]} alt="" />
