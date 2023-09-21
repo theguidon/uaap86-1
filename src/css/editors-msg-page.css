@@ -64,6 +64,7 @@
     }
 
     & .writeup-wrapper {
+      font-family: "GT America";
       display: flex;
       flex-direction: column;
       align-items: center;

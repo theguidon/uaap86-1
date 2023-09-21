@@ -21,3 +21,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+.filter {
+  position: fixed;
+  inset: 0;
+  z-index: 9999999;
+  pointer-events: none;
+}
+body:has(#side-nav[data-active="true"]) .filter {
+  backdrop-filter: blur(2.5px);
+}

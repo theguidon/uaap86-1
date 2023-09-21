@@ -7,7 +7,7 @@ const page = `
         <h1>Message from the Editors</h1>
         <h2>Blazing the Atenean Trail</h2>
         <p>
-          by <b>Anton E. Mercado</b> and <b>Juris Salvanera Anthony Bautista</b>
+          by <b>Juris Salvanera Anthony Bautista</b>
         </p>
       </div>
       <div class="writeup-wrapper">

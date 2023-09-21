@@ -11,7 +11,7 @@ window.onload = () => {
               <div class="header" style="background: ${data.categories[i].card.gradient}">
                 <h1 style="color: ${data.categories[i].card["title-color"]}">${data.categories[i].category}</h1>
                 <h2>${data.categories[i].article.title}</h2>
-                <p>By ${data.categories[i].article.writer}</p>
+                <p>By <b>${data.categories[i].article.writer}</b></p>
                 <div class="images-container">
                     <img src="${data.categories[i].article["image-middle"]}" alt="" loading="lazy"/>
                     <img src="${data.categories[i].article["image-left"]}" alt="" loading="lazy"/>
@@ -20,6 +20,8 @@ window.onload = () => {
               </div>
               <div class="writeup-wrapper">
                 <p class="writeup"><b>${data.categories[i].article["first-two"]}</b>${data.categories[i].article.text}</p>
+                <h1 style="background: ${data.categories[i].card.gradient}; background-clip: text;-webkit-background-clip: text;">Captains</h1>
+              </div>
               </div>
             </div>`;
 

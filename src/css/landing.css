@@ -49,6 +49,7 @@
 }
 
 #landing .landing-title {
+  margin-left: -5px;
   font-family: "PP Monument";
   font-weight: 800;
 }
