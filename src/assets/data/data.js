@@ -395,7 +395,7 @@ export const data = {
       "captains-images": [basePath + "/captains/eirenne-lumasang.png"],
       article: {
         "image-left": basePath + "/article-photos/taekwondo-women-1.jpg",
-        "image-middle": basePath + "/article-photos/taekwondo-mixed.jpg",
+        "image-middle": basePath + "/article-photos/taekwondo-poomsae.jpg",
         "image-right": basePath + "/article-photos/taekwondo-women-2.jpg",
         title: "Back and Limitless",
         writer: "Lyza Mama",
