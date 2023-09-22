@@ -4,7 +4,13 @@ const articleElement = document.querySelector("#article");
 window.onload = () => {
   const cards = document.querySelectorAll(".card");
   for (let i = 0; i < cards.length; i++) {
-    let captains = "";
+    const captains = data.categories[i].captains.map((name, index) => {
+      return `
+            <div class="pic-wrapper">
+                <img class="captain-pic" style="background: ${data.categories[i].card.gradient}" src="${data.categories[i]["captains-images"][index]}" ="" loading="lazy" />
+                <p>${name}</p>
+            </div>`;
+    });
 
     cards[i].addEventListener("click", () => {
       const article = `
@@ -39,15 +45,10 @@ window.onload = () => {
                 }; background-clip: text;-webkit-background-clip: text;">Captain${
         data.categories[i].captains.length > 1 ? "s" : ""
       }</h1>
-      ${data.categories[i].captains.map((name, index) => {
-        return `
-            <div class="captain-wrapper">
-                <div class="pic-wrapper">
-                    <img class="captain-pic" style="background: ${data.categories[i].card.gradient}" src="${data.categories[i]["captains-images"][index]}" ="" loading="lazy" />
-                    <p>${name}</p>
-                </div>
-            </div>`;
-      })}
+      <div class="captain-wrapper">
+        ${captains[0]}
+        ${captains.length > 1 ? captains[1] : ""}
+      </div>
               </div>
               </div>
               </div>

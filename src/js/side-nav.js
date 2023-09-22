@@ -12,7 +12,7 @@ openButton.addEventListener("click", () => {
   document.querySelector("body").style.overflow = "hidden";
 });
 
-sideNavLinks = document.querySelectorAll(".side-nav-links").map((ele) => {
+[...document.querySelectorAll(".side-nav-link")].map((ele) => {
   ele.addEventListener("click", () => {
     sideNav.dataset.active = "false";
     document.querySelector("body").style.overflow = "auto";
