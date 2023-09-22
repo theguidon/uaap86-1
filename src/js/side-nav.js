@@ -11,3 +11,10 @@ openButton.addEventListener("click", () => {
   sideNav.dataset.active = "true";
   document.querySelector("body").style.overflow = "hidden";
 });
+
+sideNavLinks = document.querySelectorAll(".side-nav-links").map((ele) => {
+  ele.addEventListener("click", () => {
+    sideNav.dataset.active = "false";
+    document.querySelector("body").style.overflow = "auto";
+  });
+});

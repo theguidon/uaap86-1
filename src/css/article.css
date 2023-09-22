@@ -97,6 +97,7 @@
       align-items: center;
       padding: 13rem 1.5rem 4.5rem;
       max-width: 40rem;
+      font-family: "GT America";
 
       & .writeup {
         white-space: pre-wrap;
@@ -110,6 +111,31 @@
         align-self: self-start;
         color: transparent;
         margin-top: 3rem;
+      }
+
+      & .captain-wrapper {
+        display: flex;
+        flex-direction: column;
+        color: #001092;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        font-family: "GT America";
+
+        & .pic-wrapper {
+          display: flex;
+          flex-direction: column;
+
+          & .captain-pic {
+            object-fit: contain;
+            object-position: bottom;
+            padding: 1rem;
+            padding-bottom: 0;
+            width: 19.75rem;
+            aspect-ratio: 1;
+            margin: 1rem;
+          }
+        }
       }
     }
   }
@@ -184,6 +210,13 @@
 
         & .images-container {
           gap: 8rem;
+        }
+      }
+
+      & .writeup-wrapper {
+        & .captain-wrapper {
+          display: flex;
+          flex-direction: row;
         }
       }
     }

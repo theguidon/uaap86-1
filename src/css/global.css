@@ -22,6 +22,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .filter {
   position: fixed;
   inset: 0;

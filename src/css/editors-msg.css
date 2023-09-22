@@ -31,7 +31,8 @@
 }
 
 #editors-msg .editors-msg-slogan-container p {
-  font-family: "PP Monument Black";
+  font-family: "PP Monument";
+  font-weight: 900;
   font-size: 5rem;
   margin: 0;
   line-height: 1;
@@ -79,6 +80,7 @@
   font-family: "GT America";
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 #editors-msg .editors-msg-info-container p {
@@ -95,6 +97,7 @@
   font-family: "GT America";
   color: #1c4480;
   background: #ffffff;
+  font-weight: 700;
 }
 
 #editors-msg .editors-msg-info-container a:hover {

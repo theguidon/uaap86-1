@@ -5,7 +5,7 @@ export const data = {
     {
       category: "Men’s Badminton",
       captains: ["Pingkoy Salvado"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/pingkoy-salvado.png"],
       article: {
         "image-left": basePath + "/article-photos/badminton-men-1.jpg",
         "image-middle": basePath + "/article-photos/badminton-mix.jpg",
@@ -26,7 +26,7 @@ export const data = {
     {
       category: "Women’s Badminton",
       captains: ["Mika de Guzman"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/mika-de-guzman.png"],
       article: {
         "image-left": basePath + "/article-photos/badminton-women-1.jpg",
         "image-middle": basePath + "/article-photos/badminton-mix.jpg",
@@ -47,7 +47,10 @@ export const data = {
     {
       category: "Men’s Basketball",
       captains: ["Chris Koon", "Sean Quitevis"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [
+        basePath + "/captains/chris-koon.png",
+        basePath + "/captains/sean-quitevis.png",
+      ],
       article: {
         "image-left": basePath + "/article-photos/basketball-men-1.jpg",
         "image-middle": basePath + "/article-photos/basketball-men-3.jpg",
@@ -68,7 +71,10 @@ export const data = {
     {
       category: "Women’s Basketball",
       captains: ["Jhazmin Joson", "Sandra Villacruz"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [
+        basePath + "/captains/jhazmin-joson.png",
+        basePath + "/captains/sandra-villacruz.png",
+      ],
       article: {
         "image-left": basePath + "/article-photos/basketball-women-2.jpg",
         "image-middle": basePath + "/article-photos/basketball-women-1.jpg",
@@ -89,7 +95,7 @@ export const data = {
     {
       category: "Men’s Beach Volleyball",
       captains: ["Amil Pacino"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/amil-pacino.png"],
       article: {
         "image-left": basePath + "/article-photos/volleyball-men-2.jpg",
         "image-middle": basePath + "/article-photos/volleyball-men-1.jpg",
@@ -110,7 +116,7 @@ export const data = {
     {
       category: "Women’s Beach Volleyball",
       captains: ["Jana Cane"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/jane-cane.png"],
       article: {
         "image-left": basePath + "/article-photos/volleyball-women-2.jpg",
         "image-middle": basePath + "/article-photos/volleyball-women-1.jpg",
@@ -131,7 +137,10 @@ export const data = {
     {
       category: "Cheerdance",
       captains: ["Julia Tulagan", "CJ Pagulayan"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [
+        basePath + "/captains/julia-tulagan.png",
+        basePath + "/captains/cj-pagulayan.png",
+      ],
       article: {
         "image-left": basePath + "/article-photos/cheerdance-2.jpg",
         "image-middle": basePath + "/article-photos/cheerdance-1.jpg",
@@ -152,7 +161,7 @@ export const data = {
     {
       category: "Men’s Chess",
       captains: ["Khalil Kis-ing"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/khalil-kis-ing.png"],
       article: {
         "image-left": basePath + "/article-photos/chess-men-2.jpg",
         "image-middle": basePath + "/article-photos/chess-men-1.jpg",
@@ -173,7 +182,7 @@ export const data = {
     {
       category: "Women’s Chess",
       captains: ["Kristine Mae Flores"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/kristine-mae-flores.png"],
       article: {
         "image-left": basePath + "/article-photos/chess-women-2.jpg",
         "image-middle": basePath + "/article-photos/chess-women-1.jpg",
@@ -194,7 +203,7 @@ export const data = {
     {
       category: "Men’s Judo",
       captains: ["Eli Claravall"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/eli-claravell.png"],
       article: {
         "image-left": basePath + "/article-photos/judo-men-2.jpg",
         "image-middle": basePath + "/article-photos/judo-men-1.jpg",
@@ -215,7 +224,7 @@ export const data = {
     {
       category: "Women’s Judo",
       captains: ["Yza Claravall"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/yza-claravall.png"],
       article: {
         "image-left": basePath + "/article-photos/judo-women-1.jpg",
         "image-middle": basePath + "/article-photos/judo-women-2.jpg",
@@ -236,7 +245,7 @@ export const data = {
     {
       category: "Men’s Swimming",
       captains: ["Rian Tirol"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/rian-tirol.png"],
       article: {
         "image-left": basePath + "/article-photos/swimming-men-2.jpg",
         "image-middle": basePath + "/article-photos/swimming-men-1.jpg",
@@ -257,7 +266,7 @@ export const data = {
     {
       category: "Women’s Swimming",
       captains: ["Marjorie Manguiat"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/marjorie-manguiat.png"],
       article: {
         "image-left": basePath + "/article-photos/swimming-women-2.jpg",
         "image-middle": basePath + "/article-photos/swimming-women-1.jpg",
@@ -278,7 +287,10 @@ export const data = {
     {
       category: "Men’s Table Tennis",
       captains: ["Andrew Uy", "Zherdel Fresco"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [
+        basePath + "/captains/andrew-uy.png",
+        basePath + "/captains/zherdel-fresco.png",
+      ],
       article: {
         "image-left": basePath + "/article-photos/tabletennis-men-2.jpg",
         "image-middle": basePath + "/article-photos/tabletennis-men-1.jpg",
@@ -299,7 +311,10 @@ export const data = {
     {
       category: "Women’s Table Tennis",
       captains: ["Kathleene Bulaqueña", "Ann Gella Borbon"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [
+        basePath + "/captains/kathleene-bulaqueña.png",
+        basePath + "/captains/ann-gella-borbon.png",
+      ],
       article: {
         "image-left": basePath + "/article-photos/tabletennis-women-2.jpg",
         "image-middle": basePath + "/article-photos/tabletennis-women-1.jpg",
@@ -320,7 +335,7 @@ export const data = {
     {
       category: "Men’s Taekwondo",
       captains: ["Angelo Santiago"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/angelo-santiago.png"],
       article: {
         "image-left": basePath + "/article-photos/taekwondo-men-1.jpg",
         "image-middle": basePath + "/article-photos/taekwondo-mixed.jpg",
@@ -341,7 +356,7 @@ export const data = {
     {
       category: "Women’s Taekwondo",
       captains: ["Eirenne Lumasang"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/eirenne-lumasang.png"],
       article: {
         "image-left": basePath + "/article-photos/taekwondo-women-1.jpg",
         "image-middle": basePath + "/article-photos/taekwondo-mixed.jpg",
@@ -365,7 +380,7 @@ export const data = {
     {
       category: "Men’s Track and Field",
       captains: ["Ray Vicente"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/ray-vicente.png"],
       article: {
         "image-left": basePath + "/article-photos/track-men-2.jpg",
         "image-middle": basePath + "/article-photos/track-men-1.jpg",
@@ -386,7 +401,7 @@ export const data = {
     {
       category: "Women’s Track and Field",
       captains: ["Jia Kawachi"],
-      "captains-images": [basePath + "/captains/"],
+      "captains-images": [basePath + "/captains/jia-kawachi.png"],
       article: {
         "image-left": basePath + "/article-photos/track-women-2.jpg",
         "image-middle": basePath + "/article-photos/track-women-1.jpg",
