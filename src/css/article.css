@@ -114,6 +114,11 @@
         margin-top: 3rem;
       }
 
+      & .coach-container {
+        display: flex;
+        flex-direction: column;
+      }
+
       & .pic-wrapper {
         color: #001092;
         text-transform: uppercase;
@@ -128,6 +133,14 @@
           width: 19.75rem;
           aspect-ratio: 1;
           margin: 1rem;
+        }
+
+        & #elmer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
         }
       }
 
@@ -233,6 +246,10 @@
       & .writeup-wrapper {
         & .captain-wrapper {
           display: flex;
+          flex-direction: row;
+        }
+
+        & .coach-container {
           flex-direction: row;
         }
       }

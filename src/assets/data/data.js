@@ -136,7 +136,7 @@ export const data = {
         title: "Bolder and Better",
         writer: "Marit Samson",
         "first-two": "BUDDING GROWTH ",
-        text: "marked the journey of the Ateneo Women’s Beach Volleyball last UAAP Season. After their seventh-place finish in Season 85, the sky’s the limit for what the Ateneo Blue Eagles hope to accomplish this year.\n\nTreating every match as a stepping stone to greatness, this season’s lineup has been preparing mightily to rule the sands as they carry with them all the lessons they have gained. Rookie Gena Hora is ready to step up and showcase her unique prowess with the eagerness to make some immediate noise for the Blue and White. Meanwhile, veterans Roma Mae Doromal, Ayumi Furukawa, and Team Captain Jan Angeli Cane are ready to prove that they have not yet exhausted their machinery of skills and strategies.\n\nAfter joining several pre-season tournaments and training vigorously under the tutelage of Coach Henry Pecaña, the determined team of four has their eyes set on steady improvement and a possible podium finish this Season 86. In their quest for redemption, the Ateneo Blue Eagles have nowhere to go but up as they reach for bigger and better accolades.",
+        text: "marked the journey of the Ateneo Women’s Beach Volleyball last UAAP Season. After their seventh-place finish in Season 85, the sky’s the limit for what the Ateneo Blue Eagles hope to accomplish this year.\n\nTreating every match as a stepping stone to greatness, this season’s lineup has been preparing mightily to rule the sands as they carry with them all the lessons they have gained. Rookie Gena Hora is ready to step up and showcase her unique prowess with the eagerness to make some immediate noise for the Blue and White. Meanwhile, veterans Jan Angeli Cane, Ayumi Furukawa, and Team Captain Roma Mae Doromal are ready to prove that they have not yet exhausted their machinery of skills and strategies.\n\nAfter joining several pre-season tournaments and training vigorously under the tutelage of Coach Henry Pecaña, the determined team of four has their eyes set on steady improvement and a possible podium finish this Season 86. In their quest for redemption, the Ateneo Blue Eagles have nowhere to go but up as they reach for bigger and better accolades.",
       },
       card: {
         gradient:
@@ -364,8 +364,9 @@ export const data = {
     },
     {
       category: "Men’s Taekwondo",
-      coach: "Elmer Rafael",
+      coach: "Jeordan Dominguez",
       "coach-image": basePath + "/coaches/taekwondo.png",
+      "coach2-image": basePath + "/coaches/taekwondo2.png",
       captains: ["Angelo Santiago"],
       "captains-images": [basePath + "/captains/angelo-santiago.png"],
       article: {
@@ -375,7 +376,7 @@ export const data = {
         title: "Soar Higher",
         writer: "Luis Antonio Licas",
         "first-two": "RIDING HIGH ",
-        text: "from their medal haul last year, the Ateneo Men’s Taekwondo Team (AMTT) is determined to soar to the top and strike gold in UAAP Season 86.\n\nFollowing a monumental third-place finish in Season 85’s Poomsae Tournament, the Blue Eagles hope to aim higher with refined techniques and nonstop preparation. The team will have additional support under the guidance of their new head coach, 2019 Southeast Asian Games gold medalist Jeordan Dominguez.\n\nMeanwhile, the team’s Sparring jins are poised to finally pull through and secure a podium finish, with help from the leadership of Team Captain Angelo Mikael Santiago. The second-year stalwart looks to propel the Blue and White to continue their medal drive under the capable hands of their long-time coach Elmer Rafael.\n\nCapping off the previous season at sixth place, the Blue Eagles seek to improve this year through pure grit, tenacity, and dedication. This includes coming into Season 86 well-prepared—not only individually, but for the entire squad. With an injection of new talent coupled with savvy veterans, the Blue and White are more than ready to dominate the mats once again.",
+        text: "from their medal haul last year, the Ateneo Men’s Taekwondo Team (AMTT) is determined to soar to the top and strike gold in UAAP Season 86.\n\nFollowing a monumental third-place finish in Season 85’s Poomsae Tournament, the Blue Eagles hope to aim higher with refined techniques and nonstop preparation. The team will have additional support under the guidance of their new head coach, 2019 Southeast Asian Games gold medalist Jeordan Dominguez.\n\nMeanwhile, the team’s Sparring jins are poised to finally pull through and secure a podium finish, with help from the leadership of Team Captain Angelo Mikael Santiago. The second-year stalwart looks to propel the Blue and White to continue their medal drive under the capable hands of their long-time coach Elmer Rafael.\n\nCapping off the previous season at sixth place, the Blue Eagles seek to improve this year through pure grit, tenacity, and dedication. This includes coming into Season 86 well-prepared—not only individually, but for the entire squad. With an injection of new talent coupled with savvy veterans, the Blue and White are more than ready to dominate the mats once again.\n\nEditors’ Note: Due to scheduling conflicts, the Ateneo Men’s and Women’s Taekwondo teams were unable to take their group photoshoot for The GUIDON Sports Primer this season. Upon communication and deliberation with the Team Captains, we agreed to reuse the shots from last season as an alternative so that the teams can still be represented in the primer. We apologize to the teams involved and our readers affected by this matter.",
       },
       card: {
         gradient:
@@ -387,8 +388,9 @@ export const data = {
     },
     {
       category: "Women’s Taekwondo",
-      coach: "Elmer Rafael",
+      coach: "Jeordan Dominguez",
       "coach-image": basePath + "/coaches/taekwondo.png",
+      "coach2-image": basePath + "/coaches/taekwondo2.png",
       captains: ["Eirenne Lumasang"],
       "captains-images": [basePath + "/captains/eirenne-lumasang.png"],
       article: {
@@ -398,7 +400,7 @@ export const data = {
         title: "Back and Limitless",
         writer: "Lyza Mama",
         "first-two": "DETERMINED TO ",
-        text: "leave a lasting impact this year, the Ateneo Women’s Taekwondo Team remains resolute in their mission to showcase unwavering resilience on the mat despite only being six in the roster.\n\nThe Blue Eagles aim to leave no stone unturned in their higher pursuits for success after bagging third place in last year's Poomsae Tournament. Newly appointed Poomsae Head Coach Jeordan Dominguez, a decorated athlete in his own right, is set to bring a wealth of experience and expertise to the table.\n\nAlso hoping to get more out of this year is the sparring team under the steady tutelage of Coach Elmer Rafael. Despite the Women’s team finishing at the bottom of the standings last season, the Eirenne Lumasang-led squad hopes that they can bag more individual accolades this season. Lumasang, being last year’s lone medalist in the Women’s Sparring category, has only spurred the Blue and White’s ambition to breach any roadblocks that come their way.",
+        text: "leave a lasting impact this year, the Ateneo Women’s Taekwondo Team remains resolute in their mission to showcase unwavering resilience on the mat despite only being six in the roster.\n\nThe Blue Eagles aim to leave no stone unturned in their higher pursuits for success after bagging third place in last year's Poomsae Tournament. Newly appointed Poomsae Head Coach Jeordan Dominguez, a decorated athlete in his own right, is set to bring a wealth of experience and expertise to the table.\n\nAlso hoping to get more out of this year is the sparring team under the steady tutelage of Coach Elmer Rafael. Despite the Women’s team finishing at the bottom of the standings last season, the Eirenne Lumasang-led squad hopes that they can bag more individual accolades this season. Lumasang, being last year’s lone medalist in the Women’s Sparring category, has only spurred the Blue and White’s ambition to breach any roadblocks that come their way.\n\nEditors’ Note: Due to scheduling conflicts, the Ateneo Men’s and Women’s Taekwondo teams were unable to take their group photoshoot for The GUIDON Sports Primer this season. Upon communication and deliberation with the Team Captains, we agreed to reuse the shots from last season as an alternative so that the teams can still be represented in the primer. We apologize to the teams involved and our readers affected by this matter.",
       },
 
       card: {

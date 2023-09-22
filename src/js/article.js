@@ -51,7 +51,10 @@ window.onload = () => {
       </div>
       <h1 style="background: ${
         data.categories[i].card.gradient
-      }; background-clip: text;-webkit-background-clip: text;">Head Coach</h1>
+      }; background-clip: text;-webkit-background-clip: text;">Head Coach${
+        data.categories[i].coach == "Jeordan Dominguez" ? "es" : ""
+      }</h1>
+      <div class="coach-container">
       <div class="pic-wrapper">
                 <img class="coach-pic" style="background: ${
                   data.categories[i].card.gradient
@@ -59,7 +62,16 @@ window.onload = () => {
         data.categories[i]["coach-image"]
       }" ="" loading="lazy" />
                 <p>${data.categories[i].coach}</p>
-            </div>
+                </div>
+                ${
+                  data.categories[i].coach == "Jeordan Dominguez"
+                    ? `<div class="pic-wrapper">
+                <img class="coach-pic" src="${data.categories[i]["coach2-image"]}" style="background: ${data.categories[i].card.gradient}" src="${data.categories[i]["coach2-image"]}" ="" loading="lazy" />
+                <p>Elmer Rafael</p>
+                </div>`
+                    : ""
+                }
+      </div>
               </div>
               </div>
               </div>
