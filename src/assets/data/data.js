@@ -223,7 +223,7 @@ export const data = {
       coach: "Ali Sulit",
       "coach-image": basePath + "/coaches/judo.png",
       captains: ["Eli Claravall"],
-      "captains-images": [basePath + "/captains/eli-claravell.png"],
+      "captains-images": [basePath + "/captains/eli-claravall.png"],
       article: {
         "image-left": basePath + "/article-photos/judo-men-2.jpg",
         "image-middle": basePath + "/article-photos/judo-men-1.jpg",
