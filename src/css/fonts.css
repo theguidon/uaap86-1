@@ -1,22 +1,29 @@
 @font-face {
   font-family: "GT America";
-  src: url(../assets/fonts/GTAmerica/GT-America-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "GT America";
-  src: url(../assets/fonts/GTAmerica/GT-America-Bold.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "GT America";
-  src: url(../assets/fonts/GTAmerica/GT-America-Bold-Italic.ttf);
+  src: url(../assets/fonts/GTAmerica/GT-AMERICA-BOLD-ITALIC.OTF);
   font-weight: 700;
   font-style: italic;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url(../assets/fonts/GTAmerica/GT-AMERICA-BOLD.OTF);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url(../assets/fonts/GTAmerica/GT-AMERICA-REGULAR-ITALIC.OTF);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url(../assets/fonts/GTAmerica/GT-AMERICA-REGULAR.OTF);
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {

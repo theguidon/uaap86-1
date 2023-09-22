@@ -20,7 +20,8 @@ window.onload = () => {
               </div>
               <div class="writeup-wrapper">
                 <p class="writeup"><b>${data.categories[i].article["first-two"]}</b>${data.categories[i].article.text}</p>
-                <h1 style="background: ${data.categories[i].card.gradient}; background-clip: text;-webkit-background-clip: text;">Captains</h1>
+                
+              </div>
               </div>
               </div>
             </div>`;

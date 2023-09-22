@@ -5,7 +5,7 @@ export const data = {
     {
       category: "Men’s Badminton",
       captains: ["Pingkoy Salvado"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/badminton-men-1.jpg",
         "image-middle": basePath + "/article-photos/badminton-mix.jpg",
@@ -13,7 +13,7 @@ export const data = {
         title: "Breaking the Cycle",
         writer: "Euan Markus",
         "first-two": "THE ATENEO ",
-        text: "Men’s Badminton Team journeyed similar roads at the UAAP Season 86 Men’s Badminton Finals as they succumbed for their second consecutive silver medal finish to the seven-peat champions National University Bulldogs. With lofty expectations finally fulfilled after last season, the Blue Eagles are ready to conquer the dynasty and bring the trophy back to Katipunan after a decade.\n\nTeam Captain Arthur Salvado aims to make the most out of his tenure as he approaches his last chance at snatching the crown and etching his name in Blue Eagles lore. Returning for the AMBT are Season 85 rookies Charles Bagasbas and Lyrden Laborte, whose talents are expected to blossom after their splendid debuts last season.\n\nThe Ateneo has also reupholstered its artillery with the addition of Lance Gabriel Vargas from Bacolod City looking to make a name for himself in the collegiate ranks.\n\nUnder the helm of Coach Kennie Ascuncion-Robles, the AMBT has one clear goal in mind heading into Season 86—reestablish the Ateneo as the cream of the crop in UAAP Badminton.",
+        text: "Men’s Badminton Team journeyed similar roads at the UAAP Season 86 Men’s Badminton Finals as they succumbed for their second consecutive silver medal finish to the seven-peat champions National University Bulldogs. With lofty expectations finally fulfilled after last season, the Blue Eagles are ready to conquer the dynasty and bring the trophy back to Katipunan after a decade.\n\nTeam Captain Arthur Salvado aims to make the most out of his tenure as he approaches his last chance at snatching the crown and etching his name in Blue Eagles lore. Returning for the AMBT are Season 85 rookies Charles Bagasbas and Lyrden Laborte, whose talents are expected to blossom after their splendid debuts last season.\n\nThe Ateneo has also reupholstered its artillery with the addition of Lance Gabriel Vargas from Bacolod City looking to make a name for himself in the collegiate ranks.\n\nUnder the helm of Coach Kennie Ascuncion-Robles, the AMBT has one clear goal in mind heading into Season 86—reestablish the Ateneo as the cream of the crop in UAAP Badminton.\n\nEditors’ Note: Due to scheduling conflicts, the Ateneo Men’s and Women’s Badminton teams were unable to take their group photoshoot for The GUIDON Sports Primer this season. Upon communication and deliberation with the Team Captains and Managers, we agreed to reuse the shots from last season as an alternative so that the teams can still be represented in the primer. We apologize to the teams involved and our readers affected by this matter.",
       },
       card: {
         gradient:
@@ -26,7 +26,7 @@ export const data = {
     {
       category: "Women’s Badminton",
       captains: ["Mika de Guzman"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/badminton-women-1.jpg",
         "image-middle": basePath + "/article-photos/badminton-mix.jpg",
@@ -34,7 +34,7 @@ export const data = {
         title: "Hungry for more",
         writer: "Vincent Somera",
         "first-two": "FRESH OFF ",
-        text: "their three-peat championship in UAAP Season 85, the Ateneo Women’s Badminton team is back, looking to replicate last year’s stellar run. The Blue Eagles went undefeated in the elimination round, leading to a thrilling Finals victory against the University of the Philippines Fighting Maroons to claim its sixth championship.\n\nDespite the departure of last season’s co-Most Valuable Player Chanelle Lunod, much of their Season 85 squad remains intact. Lunod’s co-MVP and 2023 Southeast Asian Games bronze medalist Mika De Guzman takes the reins as team captain. Holdovers Jochelle Alvarez, Missy Cervantes, Feeby Ferrer, and Maxene Olango return to reinforce the squad, while a handful of rookies are eager to bring the Ateneo glory as they debut in the collegiate scene.\n\nThe defending champions will undoubtedly have a target on their backs as they try to win their fourth consecutive title. However, under Coach Kennie Asuncion’s tutelage—as well as their championship pedigree to match—the Blue and White are ready to defend their crown and take on any challenge standing in their way.",
+        text: "their three-peat championship in UAAP Season 85, the Ateneo Women’s Badminton team is back, looking to replicate last year’s stellar run. The Blue Eagles went undefeated in the elimination round, leading to a thrilling Finals victory against the University of the Philippines Fighting Maroons to claim its sixth championship.\n\nDespite the departure of last season’s co-Most Valuable Player Chanelle Lunod, much of their Season 85 squad remains intact. Lunod’s co-MVP and 2023 Southeast Asian Games bronze medalist Mika De Guzman takes the reins as team captain. Holdovers Jochelle Alvarez, Missy Cervantes, Feeby Ferrer, and Maxene Olango return to reinforce the squad, while a handful of rookies are eager to bring the Ateneo glory as they debut in the collegiate scene.\n\nThe defending champions will undoubtedly have a target on their backs as they try to win their fourth consecutive title. However, under Coach Kennie Asuncion’s tutelage—as well as their championship pedigree to match—the Blue and White are ready to defend their crown and take on any challenge standing in their way.\n\nEditors’ Note: Due to scheduling conflicts, the Ateneo Men’s and Women’s Badminton teams were unable to take their group photoshoot for The GUIDON Sports Primer this season. Upon communication and deliberation with the Team Captains and Managers, we agreed to reuse the shots from last season as an alternative so that the teams can still be represented in the primer. We apologize to the teams involved and our readers affected by this matter.",
       },
       card: {
         gradient:
@@ -47,7 +47,7 @@ export const data = {
     {
       category: "Men’s Basketball",
       captains: ["Chris Koon", "Sean Quitevis"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/basketball-men-1.jpg",
         "image-middle": basePath + "/article-photos/basketball-men-3.jpg",
@@ -68,7 +68,7 @@ export const data = {
     {
       category: "Women’s Basketball",
       captains: ["Jhazmin Joson", "Sandra Villacruz"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/basketball-women-2.jpg",
         "image-middle": basePath + "/article-photos/basketball-women-1.jpg",
@@ -89,7 +89,7 @@ export const data = {
     {
       category: "Men’s Beach Volleyball",
       captains: ["Amil Pacino"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/volleyball-men-2.jpg",
         "image-middle": basePath + "/article-photos/volleyball-men-1.jpg",
@@ -110,7 +110,7 @@ export const data = {
     {
       category: "Women’s Beach Volleyball",
       captains: ["Jana Cane"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/volleyball-women-2.jpg",
         "image-middle": basePath + "/article-photos/volleyball-women-1.jpg",
@@ -131,7 +131,7 @@ export const data = {
     {
       category: "Cheerdance",
       captains: ["Julia Tulagan", "CJ Pagulayan"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/cheerdance-2.jpg",
         "image-middle": basePath + "/article-photos/cheerdance-1.jpg",
@@ -152,7 +152,7 @@ export const data = {
     {
       category: "Men’s Chess",
       captains: ["Khalil Kis-ing"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/chess-men-2.jpg",
         "image-middle": basePath + "/article-photos/chess-men-1.jpg",
@@ -173,7 +173,7 @@ export const data = {
     {
       category: "Women’s Chess",
       captains: ["Kristine Mae Flores"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/chess-women-2.jpg",
         "image-middle": basePath + "/article-photos/chess-women-1.jpg",
@@ -194,7 +194,7 @@ export const data = {
     {
       category: "Men’s Judo",
       captains: ["Eli Claravall"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/judo-men-2.jpg",
         "image-middle": basePath + "/article-photos/judo-men-1.jpg",
@@ -215,7 +215,7 @@ export const data = {
     {
       category: "Women’s Judo",
       captains: ["Yza Claravall"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/judo-women-1.jpg",
         "image-middle": basePath + "/article-photos/judo-women-2.jpg",
@@ -236,7 +236,7 @@ export const data = {
     {
       category: "Men’s Swimming",
       captains: ["Rian Tirol"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/swimming-men-2.jpg",
         "image-middle": basePath + "/article-photos/swimming-men-1.jpg",
@@ -257,7 +257,7 @@ export const data = {
     {
       category: "Women’s Swimming",
       captains: ["Marjorie Manguiat"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/swimming-women-2.jpg",
         "image-middle": basePath + "/article-photos/swimming-women-1.jpg",
@@ -278,7 +278,7 @@ export const data = {
     {
       category: "Men’s Table Tennis",
       captains: ["Andrew Uy", "Zherdel Fresco"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/tabletennis-men-2.jpg",
         "image-middle": basePath + "/article-photos/tabletennis-men-1.jpg",
@@ -299,7 +299,7 @@ export const data = {
     {
       category: "Women’s Table Tennis",
       captains: ["Kathleene Bulaqueña", "Ann Gella Borbon"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/tabletennis-women-2.jpg",
         "image-middle": basePath + "/article-photos/tabletennis-women-1.jpg",
@@ -320,7 +320,7 @@ export const data = {
     {
       category: "Men’s Taekwondo",
       captains: ["Angelo Santiago"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/taekwondo-men-1.jpg",
         "image-middle": basePath + "/article-photos/taekwondo-mixed.jpg",
@@ -341,7 +341,7 @@ export const data = {
     {
       category: "Women’s Taekwondo",
       captains: ["Eirenne Lumasang"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/taekwondo-women-1.jpg",
         "image-middle": basePath + "/article-photos/taekwondo-mixed.jpg",
@@ -351,7 +351,7 @@ export const data = {
         "first-two": "DETERMINED TO ",
         text: "leave a lasting impact this year, the Ateneo Women’s Taekwondo Team remains resolute in their mission to showcase unwavering resilience on the mat despite only being six in the roster.\n\nThe Blue Eagles aim to leave no stone unturned in their higher pursuits for success after bagging third place in last year's Poomsae Tournament. Newly appointed Poomsae Head Coach Jeordan Dominguez, a decorated athlete in his own right, is set to bring a wealth of experience and expertise to the table.\n\nAlso hoping to get more out of this year is the sparring team under the steady tutelage of Coach Elmer Rafael. Despite the Women’s team finishing at the bottom of the standings last season, the Eirenne Lumasang-led squad hopes that they can bag more individual accolades this season. Lumasang, being last year’s lone medalist in the Women’s Sparring category, has only spurred the Blue and White’s ambition to breach any roadblocks that come their way.",
         captains: [""],
-        "captains-images": [""],
+        "captains-images": [basePath + "/captains/"],
       },
 
       card: {
@@ -365,7 +365,7 @@ export const data = {
     {
       category: "Men’s Track and Field",
       captains: ["Ray Vicente"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/track-men-2.jpg",
         "image-middle": basePath + "/article-photos/track-men-1.jpg",
@@ -386,7 +386,7 @@ export const data = {
     {
       category: "Women’s Track and Field",
       captains: ["Jia Kawachi"],
-      "captains-images": [""],
+      "captains-images": [basePath + "/captains/"],
       article: {
         "image-left": basePath + "/article-photos/track-women-2.jpg",
         "image-middle": basePath + "/article-photos/track-women-1.jpg",

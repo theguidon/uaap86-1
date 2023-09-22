@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "PP Monument Black";
-  src: url(/src/assets/fonts/PPMonument/PPMonumentExtended-Black.otf);
-}
-
-@font-face {
-  font-family: "GT America Bold";
-  src: url(/src/assets/fonts/GTAmerica/GT-America-Bold.ttf);
-}
-
-@font-face {
-  font-family: "GT America Regular";
-  src: url(/src/assets/fonts/GTAmerica/GT-America-Regular.ttf);
-}
-
 #editors-msg {
   width: 100%;
   height: min(100dvh, fit-content);
@@ -91,13 +76,13 @@
 }
 
 #editors-msg .editors-msg-info-container h1 {
-  font-family: "GT America Bold";
+  font-family: "GT America";
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
 #editors-msg .editors-msg-info-container p {
-  font-family: "GT America Regular";
+  font-family: "GT America";
   margin-bottom: 2rem;
 }
 
@@ -107,7 +92,7 @@
   width: fit-content;
   height: fit-content;
   border-radius: 0.3rem;
-  font-family: "GT America Bold";
+  font-family: "GT America";
   color: #1c4480;
   background: #ffffff;
 }
