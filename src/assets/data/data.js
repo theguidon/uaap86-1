@@ -127,8 +127,8 @@ export const data = {
       category: "Women’s Beach Volleyball",
       coach: "Henry Pecaña",
       "coach-image": basePath + "/coaches/volleyball.png",
-      captains: ["Jana Cane"],
-      "captains-images": [basePath + "/captains/jane-cane.png"],
+      captains: ["Roma Mae Doromal"],
+      "captains-images": [basePath + "/captains/roma-mae-doromal.png"],
       article: {
         "image-left": basePath + "/article-photos/volleyball-women-2.jpg",
         "image-middle": basePath + "/article-photos/volleyball-women-1.jpg",
