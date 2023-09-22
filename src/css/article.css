@@ -122,10 +122,9 @@
         font-family: "GT America";
 
         & .coach-pic {
-          object-fit: contain;
-          object-position: bottom;
-          padding: 1rem;
-          padding-bottom: 0;
+          object-fit: cover;
+          object-position: top;
+          padding-top: 1.5rem;
           width: 19.75rem;
           aspect-ratio: 1;
           margin: 1rem;
@@ -147,9 +146,8 @@
 
           & .captain-pic {
             object-fit: contain;
-            object-position: bottom;
-            padding: 1rem;
-            padding-bottom: 0;
+            object-position: top;
+            padding-top: 1.5rem;
             width: 19.75rem;
             aspect-ratio: 1;
             margin: 1rem;
