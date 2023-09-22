@@ -104,8 +104,8 @@ export const data = {
       category: "Men’s Beach Volleyball",
       coach: "Henry Pecaña",
       "coach-image": basePath + "/coaches/volleyball.png",
-      captains: ["Amil Pacino"],
-      "captains-images": [basePath + "/captains/amil-pacino.png"],
+      captains: ["Amil Pacinio"],
+      "captains-images": [basePath + "/captains/amil-pacinio.png"],
       article: {
         "image-left": basePath + "/article-photos/volleyball-men-2.jpg",
         "image-middle": basePath + "/article-photos/volleyball-men-1.jpg",
