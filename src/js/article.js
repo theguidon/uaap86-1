@@ -49,6 +49,17 @@ window.onload = () => {
         ${captains[0]}
         ${captains.length > 1 ? captains[1] : ""}
       </div>
+      <h1 style="background: ${
+        data.categories[i].card.gradient
+      }; background-clip: text;-webkit-background-clip: text;">Head Coach</h1>
+      <div class="pic-wrapper">
+                <img class="coach-pic" style="background: ${
+                  data.categories[i].card.gradient
+                }" src="${
+        data.categories[i]["coach-image"]
+      }" ="" loading="lazy" />
+                <p>${data.categories[i].coach}</p>
+            </div>
               </div>
               </div>
               </div>

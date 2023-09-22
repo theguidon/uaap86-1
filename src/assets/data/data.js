@@ -5,7 +5,7 @@ export const data = {
     {
       category: "Men’s Badminton",
       coach: "Kennie Asuncion",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/badminton.png",
       captains: ["Pingkoy Salvado"],
       "captains-images": [basePath + "/captains/pingkoy-salvado.png"],
       article: {
@@ -28,7 +28,7 @@ export const data = {
     {
       category: "Women’s Badminton",
       coach: "Kennie Asuncion",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/badminton.png",
       captains: ["Mika de Guzman"],
       "captains-images": [basePath + "/captains/mika-de-guzman.png"],
       article: {
@@ -51,7 +51,7 @@ export const data = {
     {
       category: "Men’s Basketball",
       coach: "Tab Baldwin ",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/basketball-men.png",
       captains: ["Chris Koon", "Sean Quitevis"],
       "captains-images": [
         basePath + "/captains/chris-koon.png",
@@ -77,7 +77,7 @@ export const data = {
     {
       category: "Women’s Basketball",
       coach: "LA Mumar",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/basketball-women.png",
       captains: ["Jhazmin Joson", "Sandra Villacruz"],
       "captains-images": [
         basePath + "/captains/jhazmin-joson.png",
@@ -103,7 +103,7 @@ export const data = {
     {
       category: "Men’s Beach Volleyball",
       coach: "Henry Pecaña",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/volleyball.png",
       captains: ["Amil Pacino"],
       "captains-images": [basePath + "/captains/amil-pacino.png"],
       article: {
@@ -126,7 +126,7 @@ export const data = {
     {
       category: "Women’s Beach Volleyball",
       coach: "Henry Pecaña",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/volleyball.png",
       captains: ["Jana Cane"],
       "captains-images": [basePath + "/captains/jane-cane.png"],
       article: {
@@ -149,7 +149,7 @@ export const data = {
     {
       category: "Cheerdance",
       coach: "Justice Gimeno",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/cheerdance.png",
       captains: ["Julia Tulagan", "CJ Pagulayan"],
       "captains-images": [
         basePath + "/captains/julia-tulagan.png",
@@ -175,7 +175,7 @@ export const data = {
     {
       category: "Men’s Chess",
       coach: "Jan Emmanuel Garcia",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/chess-men.png",
       captains: ["Khalil Kis-ing"],
       "captains-images": [basePath + "/captains/khalil-kis-ing.png"],
       article: {
@@ -198,7 +198,7 @@ export const data = {
     {
       category: "Women’s Chess",
       coach: "Yves Ranola",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/chess-women.png",
       captains: ["Kristine Mae Flores"],
       "captains-images": [basePath + "/captains/kristine-mae-flores.png"],
       article: {
@@ -221,7 +221,7 @@ export const data = {
     {
       category: "Men’s Judo",
       coach: "Ali Sulit",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/judo.png",
       captains: ["Eli Claravall"],
       "captains-images": [basePath + "/captains/eli-claravell.png"],
       article: {
@@ -244,7 +244,7 @@ export const data = {
     {
       category: "Women’s Judo",
       coach: "Ali Sulit",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/judo.png",
       captains: ["Yza Claravall"],
       "captains-images": [basePath + "/captains/yza-claravall.png"],
       article: {
@@ -267,7 +267,7 @@ export const data = {
     {
       category: "Men’s Swimming",
       coach: "Archie Lim",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/swimming.png",
       captains: ["Rian Tirol"],
       "captains-images": [basePath + "/captains/rian-tirol.png"],
       article: {
@@ -290,7 +290,7 @@ export const data = {
     {
       category: "Women’s Swimming",
       coach: "Archie Lim",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/swimming.png",
       captains: ["Marjorie Manguiat"],
       "captains-images": [basePath + "/captains/marjorie-manguiat.png"],
       article: {
@@ -313,7 +313,7 @@ export const data = {
     {
       category: "Men’s Table Tennis",
       coach: "Mihali Crisostomo",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/tabletennis-men.png",
       captains: ["Andrew Uy", "Zherdel Fresco"],
       "captains-images": [
         basePath + "/captains/andrew-uy.png",
@@ -339,7 +339,7 @@ export const data = {
     {
       category: "Women’s Table Tennis",
       coach: "Ting Ledesma",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/tabletennis-women.png",
       captains: ["Kathleene Bulaqueña", "Ann Gella Borbon"],
       "captains-images": [
         basePath + "/captains/kathleene-bulaqueña.png",
@@ -365,7 +365,7 @@ export const data = {
     {
       category: "Men’s Taekwondo",
       coach: "Elmer Rafael",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/taekwondo.png",
       captains: ["Angelo Santiago"],
       "captains-images": [basePath + "/captains/angelo-santiago.png"],
       article: {
@@ -388,7 +388,7 @@ export const data = {
     {
       category: "Women’s Taekwondo",
       coach: "Elmer Rafael",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/taekwondo.png",
       captains: ["Eirenne Lumasang"],
       "captains-images": [basePath + "/captains/eirenne-lumasang.png"],
       article: {
@@ -399,11 +399,6 @@ export const data = {
         writer: "Lyza Mama",
         "first-two": "DETERMINED TO ",
         text: "leave a lasting impact this year, the Ateneo Women’s Taekwondo Team remains resolute in their mission to showcase unwavering resilience on the mat despite only being six in the roster.\n\nThe Blue Eagles aim to leave no stone unturned in their higher pursuits for success after bagging third place in last year's Poomsae Tournament. Newly appointed Poomsae Head Coach Jeordan Dominguez, a decorated athlete in his own right, is set to bring a wealth of experience and expertise to the table.\n\nAlso hoping to get more out of this year is the sparring team under the steady tutelage of Coach Elmer Rafael. Despite the Women’s team finishing at the bottom of the standings last season, the Eirenne Lumasang-led squad hopes that they can bag more individual accolades this season. Lumasang, being last year’s lone medalist in the Women’s Sparring category, has only spurred the Blue and White’s ambition to breach any roadblocks that come their way.",
-        coach: "",
-        "coach-image": basePath + "/coaches/",
-        captains: [""],
-
-        "captains-images": [basePath + "/captains/"],
       },
 
       card: {
@@ -417,7 +412,7 @@ export const data = {
     {
       category: "Men’s Track and Field",
       coach: "Sean Guevara",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/track.png",
       captains: ["Ray Vicente"],
       "captains-images": [basePath + "/captains/ray-vicente.png"],
       article: {
@@ -440,7 +435,7 @@ export const data = {
     {
       category: "Women’s Track and Field",
       coach: "Sean Guevara",
-      "coach-image": basePath + "/coaches/",
+      "coach-image": basePath + "/coaches/track.png",
       captains: ["Jia Kawachi"],
       "captains-images": [basePath + "/captains/jia-kawachi.png"],
       article: {
