@@ -391,8 +391,11 @@ export const data = {
       coach: "Jeordan Dominguez",
       "coach-image": basePath + "/coaches/taekwondo.png",
       "coach2-image": basePath + "/coaches/taekwondo2.png",
-      captains: ["Eirenne Lumasang"],
-      "captains-images": [basePath + "/captains/eirenne-lumasang.png"],
+      captains: ["Eirenne Lumasang", "Elaine Borres"],
+      "captains-images": [
+        basePath + "/captains/eirenne-lumasang.png",
+        basePath + "/captains/elainne-borres.png",
+      ],
       article: {
         "image-left": basePath + "/article-photos/taekwondo-women-1.jpg",
         "image-middle": basePath + "/article-photos/taekwondo-poomsae.jpg",
