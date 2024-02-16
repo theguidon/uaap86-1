@@ -77,31 +77,49 @@
   width: fit-content;
 }
 
-/* slideshow container and children */
+/* graphic container and children */
 
-#landing .landing-slideshow {
-  z-index: 1;
+#landing .landing-graphic {
   position: absolute;
   right: 0;
-  top: 50%;
-  height: 55%;
+  top: 0;
+  height: 110%;
   aspect-ratio: 0.75;
-  border-top-left-radius: 99999px;
-  border-bottom-left-radius: 99999px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-image: url(../assets/images/slideshow.png);
-  background-size: cover;
-  background-position-x: 0%;
-  animation: landing-slideshow-anim 50s infinite linear;
 }
 
-@keyframes landing-slideshow-anim {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 107.9%;
-  }
+#landing .landing-graphic-positioning {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#landing .landing-graphic-front,
+.landing-graphic-middle,
+.landing-graphic-back {
+  position: absolute;
+}
+
+#landing .landing-graphic-front {
+  z-index: 3;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* dimensions may change depending on the featured person */
+#landing .landing-graphic-middle {
+  z-index: 2;
+  bottom: 2rem;
+  right: 0;
+  height: 85%;
+  width: auto;
+}
+
+#landing .landing-graphic-back {
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 
 /* --- media queries --- */
