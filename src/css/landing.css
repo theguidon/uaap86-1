@@ -52,7 +52,7 @@
   margin-left: -5px;
   font-family: "PP Monument";
   font-weight: 800;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 #landing .landing-title p:nth-child(1) {
@@ -64,7 +64,14 @@
   font-size: 2rem;
   line-height: 1;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+#landing .landing-title p:nth-child(3) {
+  font-size: 2rem;
+  line-height: 0.8;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
 }
 
 #landing .landing-label {
@@ -72,9 +79,14 @@
   font-size: 1rem;
   font-weight: 700;
   padding: 0.75rem;
-  border-radius: 0.5rem;
-  background: #001092;
   width: fit-content;
+}
+
+#landing .landing-label::before,
+.landing-label::after {
+  content: url(/src/assets/images/landing-label-line.svg);
+  margin: 1rem;
+  vertical-align: super;
 }
 
 /* graphic container and children */
@@ -134,10 +146,33 @@
     font-size: 7.5rem;
   }
   #landing .landing-title p:nth-child(2) {
-    font-size: 3.5rem;
+    font-size: 5rem;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 15.9rem;
   }
   #landing .landing-label {
-    font-size: 1.125rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #landing .landing-title p:nth-child(2) {
+    font-size: 2rem;
+    display: inline;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 2rem;
+    display: inline;
+  }
+  #landing .landing-label {
+    padding: 0;
+    margin: 0;
+  }
+  #landing .landing-label::before,
+  .landing-label::after {
+    content: "";
+    margin: 0;
   }
 }
 
@@ -155,7 +190,7 @@
 
 @media only screen and (min-width: 1280px) {
   #landing .landing-text-container {
-    padding: 12.5rem 5.5rem;
+    padding: 8rem 5.5rem;
   }
 
   #landing .landing-title p:nth-child(1) {
@@ -163,11 +198,15 @@
   }
 
   #landing .landing-title p:nth-child(2) {
-    font-size: 5.5rem;
+    font-size: 7.25rem;
+  }
+
+  #landing .landing-title p:nth-child(3) {
+    font-size: 23rem;
   }
 
   #landing .landing-label {
-    font-size: 1.25rem;
+    font-size: 1.55rem;
   }
 }
 
