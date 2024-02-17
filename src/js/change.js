@@ -6,4 +6,12 @@ function change() {
 	player.src =`/landing/${i}.png`;
 }
 
-setInterval(change, 1500);
+function fade() {
+	player.style.opacity = 0;
+	setTimeout(function t() {
+		change()
+		player.style.opacity = 1;
+	}, 1500);
+}
+
+setInterval(fade, 5000);
