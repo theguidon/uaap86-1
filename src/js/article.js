@@ -19,59 +19,17 @@ window.onload = () => {
               <div class="header" style="background: ${
                 data.categories[i].card.gradient
               }">
-                <h1 style="color: ${data.categories[i].card["title-color"]}">${
-        data.categories[i].category
-      }</h1>
+                <h1 style="color: ${data.categories[i].card["title-color"]}">${ data.categories[i].category }</h1>
                 <h2>${data.categories[i].article.title}</h2>
                 <p>By <b>${data.categories[i].article.writer}</b></p>
                 <div class="images-container">
-                    <img src="${
-                      data.categories[i].article["image-middle"]
-                    }" alt="" loading="lazy"/>
-                    <img src="${
-                      data.categories[i].article["image-left"]
-                    }" alt="" loading="lazy"/>
-                    <img src="${
-                      data.categories[i].article["image-right"]
-                    }" alt="" loading="lazy"/>
+                    <img src="${ data.categories[i].article["image-middle"] }" alt="" loading="lazy"/>
+                    <img src="${ data.categories[i].article["image-left"] }" alt="" loading="lazy"/>
+                    <img src="${ data.categories[i].article["image-right"] }" alt="" loading="lazy"/>
                 </div>
               </div>
               <div class="writeup-wrapper">
-                <p class="writeup"><b>${
-                  data.categories[i].article["first-two"]
-                }</b>${data.categories[i].article.text}</p>
-                <h1 style="background: ${
-                  data.categories[i].card.gradient
-                }; background-clip: text;-webkit-background-clip: text;">Captain${
-        data.categories[i].captains.length > 1 ? "s" : ""
-      }</h1>
-      <div class="captain-wrapper">
-        ${captains[0]}
-        ${captains.length > 1 ? captains[1] : ""}
-      </div>
-      <h1 style="background: ${
-        data.categories[i].card.gradient
-      }; background-clip: text;-webkit-background-clip: text;">Head Coach${
-        data.categories[i].coach == "Jeordan Dominguez" ? "es" : ""
-      }</h1>
-      <div class="coach-container">
-      <div class="pic-wrapper">
-                <img class="coach-pic" style="background: ${
-                  data.categories[i].card.gradient
-                }" src="${
-        data.categories[i]["coach-image"]
-      }" ="" loading="lazy" />
-                <p>${data.categories[i].coach}</p>
-                </div>
-                ${
-                  data.categories[i].coach == "Jeordan Dominguez"
-                    ? `<div class="pic-wrapper">
-                <img class="coach-pic" src="${data.categories[i]["coach2-image"]}" style="background: ${data.categories[i].card.gradient}" src="${data.categories[i]["coach2-image"]}" ="" loading="lazy" />
-                <p>Elmer Rafael</p>
-                </div>`
-                    : ""
-                }
-      </div>
+                <p class="writeup"><b>${ data.categories[i].article["first-two"] }</b>${data.categories[i].article.text} </p>
               </div>
               </div>
               </div>
