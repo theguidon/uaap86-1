@@ -252,10 +252,9 @@
     bottom: 0;
   }
   #landing .landing-graphic-back {
-    bottom: 0;
+    bottom: -10%;
     right: 50%;
 		translate: 50%;
-    width: 90%;
     height: auto;
   }
 }
