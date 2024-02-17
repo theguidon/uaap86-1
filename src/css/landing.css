@@ -23,6 +23,7 @@
   inset: 2.5rem auto auto 2rem;
   cursor: pointer;
   z-index: 999;
+	width: 1.75rem;
 }
 
 /* background (shared by landing and editors-msg divs) */
