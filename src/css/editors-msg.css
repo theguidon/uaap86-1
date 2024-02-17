@@ -8,8 +8,9 @@
 /* main container */
 
 #editors-msg .editors-msg-main-container {
-  display: grid;
-	grid: auto-flow / 1fr 1fr;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: end;
   height: 100%;
 	padding-top: 10rem;
