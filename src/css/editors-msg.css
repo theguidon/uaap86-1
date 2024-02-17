@@ -44,9 +44,12 @@
 }
 
 #editors-msg .editors-msg-slogan:nth-child(2) {
+  text-align: right;
+}
+
+#editors-msg .editors-msg-slogan:nth-child(3) {
   color: transparent;
   -webkit-text-stroke: 2px #ffffff;
-  text-align: right;
 }
 
 /* workaround for placing the img in the right place */
@@ -120,17 +123,28 @@
     min-width: 300px;
     max-width: 600px;
   }
-
   #editors-msg .editors-msg-slogan-container p {
-    font-size: 10dvw;
+    font-size: 8dvw;
   }
-
   #editors-msg .editors-msg-slogan img {
     width: 70dvw;
   }
 }
 
 @media only screen and (max-width: 640px) {
+  #editors-msg .editors-msg-slogan-container p {
+    font-size: 6dvw;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  #editors-msg .editors-msg-main-container {
+    padding: 5rem 8rem 5rem 8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #editors-msg .editors-msg-slogan-container p {
+    font-size: 8dvw;
+  }
   #editors-msg .editors-msg-main-container {
     padding: 5rem 8rem 5rem 8rem;
   }
