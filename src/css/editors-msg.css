@@ -8,10 +8,9 @@
 /* main container */
 
 #editors-msg .editors-msg-main-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  flex-wrap: wrap;
+  display: grid;
+	grid: auto-flow / 1fr 1fr;
+	align-items: end;
   height: 100%;
 	padding-top: 10rem;
 }
@@ -68,7 +67,6 @@
 /* info container and children */
 
 #editors-msg .editors-msg-info-container {
-  flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,46 +117,49 @@
 #square {
 	background: #1C2BB5;
 	position: absolute;
-	inset: 0 -999rem 0 -8rem;
+	inset: 0 -8rem;
 	border-top-left-radius: 20rem;
 }
 
 /* --- media queries --- */
-
-@media only screen and (max-width: 900px) {
-  #editors-msg .editors-msg-main-container {
-    gap: 5rem;
+@media only screen and (max-width: 1300px) {
+  #editors-msg .editors-msg-slogan-container p {
+    font-size: 4rem;
+  }
+  #editors-msg .editors-msg-slogan img {
+    width: 40dvw;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  #editors-msg .editors-msg-slogan-container {
-    min-width: 300px;
-    max-width: 600px;
+@media only screen and (max-width: 1200px) {
+  #editors-msg .editors-msg-main-container {
+		padding-top: 2rem;
   }
   #editors-msg .editors-msg-slogan-container p {
-    font-size: 8dvw;
+    font-size: 3.5rem;
   }
-  #editors-msg .editors-msg-slogan img {
-    width: 70dvw;
+}
+
+@media only screen and (max-width: 1000px) {
+  #editors-msg .editors-msg-main-container {
+		display: flex;
+		flex-direction: column;
   }
+  #editors-msg .editors-msg-slogan-container {
+		align-self: start;
+		margin: 2rem 5rem;
+		translate: 0 5rem;
+  }
+  #editors-msg .editors-msg-slogan-container p {
+    font-size: 3rem;
+  }
+	#editors-msg .editors-msg-info-container #editor-text {
+		margin: 4rem;
+	}
 }
 
 @media only screen and (max-width: 640px) {
-  #editors-msg .editors-msg-slogan-container p {
-    font-size: 6dvw;
-    -webkit-text-stroke: 1px #ffffff;
-  }
-  #editors-msg .editors-msg-main-container {
-    padding: 5rem 8rem 5rem 8rem;
-  }
 }
 
 @media only screen and (max-width: 480px) {
-  #editors-msg .editors-msg-slogan-container p {
-    font-size: 8dvw;
-  }
-  #editors-msg .editors-msg-main-container {
-    padding: 5rem 8rem 5rem 8rem;
-  }
 }
