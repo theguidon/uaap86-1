@@ -13,7 +13,7 @@
   flex-wrap: wrap;
   gap: 8rem;
   height: 100%;
-  padding: 5rem 8rem;
+  padding: 18rem 8rem 5rem 8rem;
 }
 
 #editors-msg .editors-msg-slogan-container,
@@ -109,15 +109,11 @@
 
 /* --- media queries --- */
 
-/* main container */
-
 @media only screen and (max-width: 900px) {
   #editors-msg .editors-msg-main-container {
     gap: 5rem;
   }
 }
-
-/* slogan container */
 
 @media only screen and (max-width: 900px) {
   #editors-msg .editors-msg-slogan-container {
@@ -131,5 +127,11 @@
 
   #editors-msg .editors-msg-slogan img {
     width: 70dvw;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #editors-msg .editors-msg-main-container {
+    padding: 5rem 8rem 5rem 8rem;
   }
 }
