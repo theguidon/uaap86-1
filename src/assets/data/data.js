@@ -182,7 +182,7 @@ export const data = {
       },
     },
     {
-      category: "Mens’s Fencing",
+      category: "Men’s Fencing",
       coach: "Ryan Janeo",
       captains: ["Seth Cucio"],
       "captains-images": [],
@@ -204,7 +204,7 @@ export const data = {
       },
     },
     {
-      category: "Womens’s Fencing",
+      category: "Women’s Fencing",
       coach: "Ryan Janeo",
       "coach-image": basePath + "/coaches/judo.png",
       captains: ["Kaikaku C. Dela Serna"],
