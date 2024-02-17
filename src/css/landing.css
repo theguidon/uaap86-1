@@ -40,7 +40,8 @@
   color: #ffffff;
   z-index: 10;
   height: 100dvh;
-  padding: 6.5rem 1.5rem;
+  /* padding: 6.5rem 1.5rem; */
+  padding: 8rem 5.5rem;
 }
 
 #landing .landing-logo {
@@ -52,118 +53,229 @@
   margin-left: -5px;
   font-family: "PP Monument";
   font-weight: 800;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 #landing .landing-title p:nth-child(1) {
-  font-size: 5rem;
+  font-size: 10rem;
   line-height: 1;
 }
 
 #landing .landing-title p:nth-child(2) {
-  font-size: 2rem;
+  font-size: 6.7rem;
   line-height: 1;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+#landing .landing-title p:nth-child(3) {
+  margin-left: -1.5rem;
+  font-size: 23rem;
+  line-height: 0.8;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
 }
 
 #landing .landing-label {
   font-family: "GT America";
-  font-size: 1rem;
+  font-size: 1.7rem;
   font-weight: 700;
   padding: 0.75rem;
-  border-radius: 0.5rem;
-  background: #001092;
   width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-/* slideshow container and children */
+#landing .landing-label p {
+  margin: 0 1rem;
+  display: inline-block;
+}
 
-#landing .landing-slideshow {
-  z-index: 1;
+#landing .landing-label img {
+  width: 7.2rem;
+}
+
+/* graphic container and children */
+
+#landing .landing-graphic {
   position: absolute;
   right: 0;
-  top: 50%;
-  height: 55%;
+  top: 0;
+  height: 110%;
   aspect-ratio: 0.75;
-  border-top-left-radius: 99999px;
-  border-bottom-left-radius: 99999px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-image: url(../assets/images/slideshow.png);
-  background-size: cover;
-  background-position-x: 0%;
-  animation: landing-slideshow-anim 50s infinite linear;
 }
 
-@keyframes landing-slideshow-anim {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 107.9%;
-  }
+#landing .landing-graphic-positioning {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#landing .landing-graphic-front,
+.landing-graphic-middle,
+.landing-graphic-back {
+  position: absolute;
+}
+
+#landing .landing-graphic-front {
+  z-index: 3;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* dimensions may change depending on the featured person */
+#landing .landing-graphic-middle {
+  z-index: 2;
+  bottom: 2rem;
+  right: 0;
+  height: 85%;
+  width: auto;
+}
+
+#landing .landing-graphic-back {
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 
 /* --- media queries --- */
 
-/* text container */
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 1440px) {
   #landing .landing-text-container {
     padding: 6.5rem 1.5rem;
   }
-
   #landing .landing-title p:nth-child(1) {
-    font-size: 7.5rem;
+    font-size: 9rem;
   }
   #landing .landing-title p:nth-child(2) {
-    font-size: 3.5rem;
+    font-size: 6rem;
+  }
+  #landing .landing-title p:nth-child(3) {
+    margin-left: -1rem;
+    font-size: 20rem;
   }
   #landing .landing-label {
-    font-size: 1.125rem;
+    font-size: 1.4rem;
+    font-weight: 600;
   }
-}
-
-@media (min-width: 768px) {
-  #landing .landing-text-container {
-    padding: 7.5rem 2.5rem;
+  #landing .landing-label img {
+    width: 6rem;
   }
-}
-
-@media (min-width: 1024px) {
+  #landing .landing-graphic {
+    top: 5rem;
+  }
   #landing .landing-text-container {
     padding: 9rem 4rem;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  #landing .landing-text-container {
-    padding: 12.5rem 5.5rem;
-  }
-
+@media only screen and (max-width: 1300px) {
   #landing .landing-title p:nth-child(1) {
-    font-size: 11rem;
+    font-size: 7.5rem;
   }
-
   #landing .landing-title p:nth-child(2) {
-    font-size: 5.5rem;
+    font-size: 5rem;
+  }
+  #landing .landing-title p:nth-child(3) {
+    margin-left: -1rem;
+    font-size: 16.8rem;
+  }
+  #landing .landing-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  #landing .landing-label img {
+    width: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #landing .landing-graphic {
+		height: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #landing .landing-text-container {
+    padding: 6rem 4rem;
+  }
+  #landing .landing-title p:nth-child(1) {
+    font-size: 8rem;
+  }
+  #landing .landing-title p:nth-child(2) {
+    font-size: 4rem;
+    display: inline;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 4rem;
+    display: inline;
+    margin: 0;
+    -webkit-text-stroke: 1px #ffffff;
   }
 
   #landing .landing-label {
-    font-size: 1.25rem;
+    padding: 0;
+    margin: 0;
+  }
+  #landing .landing-label p {
+    margin: 0;
+		font-size: 1.5rem;
+  }
+  #landing .landing-label img {
+    display: none;
+  }
+
+  #landing .landing-graphic {
+    bottom: 0;
+    height: 90%;
   }
 }
 
-/* slideshow container */
-@media (min-width: 768px) {
-  #landing .landing-slideshow {
-    top: 30%;
-    height: 75%;
+
+@media only screen and (max-width: 860px) {
+  #landing .landing-graphic {
+    top: unset;
+    bottom: 0;
+    height: 80%;
+  }
+  #landing .landing-graphic-front {
+    left: 60px;
+    bottom: -30px;
+    width: 50%;
+    height: auto;
+  }
+  #landing .landing-graphic-middle {
+    bottom: 0;
+  }
+  #landing .landing-graphic-back {
+    bottom: -20%;
+    right: 50%;
+		translate: 50%;
+    height: auto;
   }
 }
 
-@media (min-width: 1024px) {
-  #landing .landing-slideshow {
-    top: 0;
-    height: 105%;
+@media only screen and (max-width: 640px) {
+  #landing .landing-title p:nth-child(1) {
+    font-size: 4.8rem;
+  }
+  #landing .landing-title p:nth-child(2) {
+    font-size: 2.2rem;
+    display: inline;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 2.3rem;
+    display: inline;
+    margin: 0;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  #landing .landing-label p {
+		font-size: 1rem;
   }
 }

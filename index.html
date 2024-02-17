@@ -73,12 +73,14 @@
     <link rel="stylesheet" href="./src/css/category.css" />
     <link rel="stylesheet" href="./src/css/article.css" />
     <link rel="stylesheet" href="./src/css/credits.css" />
+    <link rel="stylesheet" href="./src/css/change.css" />
     <script type="module" src="./src/js/article.js"></script>
     <script type="module" src="./src/js/category.js"></script>
     <script type="module" src="./src/js/side-nav.js"></script>
     <script type="module" src="./src/js/editors-msg-page.js"></script>
     <script type="module" src="./src/js/filter.js"></script>
     <script type="module" src="./src/js/router.js"></script>
+    <script type="module" src="./src/js/change.js"></script>
   </head>
 
   <body>
@@ -120,35 +122,68 @@
           <img class="landing-logo" src="./src/assets/images/logo.svg" />
           <div class="landing-title">
             <p>UAAP</p>
-            <p>SEASON 86</p>
+            <p>SEASON</p>
+            <p>86</p>
           </div>
-          <div class="landing-label">FIRST SEMESTER</div>
+          <div class="landing-label">
+            <img src="./src/assets/images/landing-label-line.svg" />
+            <p>SECOND SEMESTER PRIMER</p>
+            <img src="./src/assets/images/landing-label-line.svg" />
+          </div>
         </div>
-        <div class="landing-slideshow"></div>
+        <div class="landing-graphic">
+          <div class="landing-graphic-positioning">
+            <picture>
+              <source
+                media="(max-width: 860px)"
+                srcset="./src/assets/images/landing-graphic-front-mobile.svg"
+              />
+              <img
+                class="landing-graphic-front"
+                src="./src/assets/images/landing-graphic-front.svg"
+              />
+            </picture>
+            <img
+              class="landing-graphic-middle fade"
+							id="landing-player"
+              src="/landing/0.png"
+            />
+            <picture>
+              <source
+                media="(max-width: 860px)"
+                srcset="./src/assets/images/landing-graphic-back-mobile.svg"
+              />
+              <img
+                class="landing-graphic-back"
+                src="./src/assets/images/landing-graphic-back.svg"
+              />
+            </picture>
+          </div>
+        </div>
       </div>
       <div id="Message From the Editors"></div>
       <div id="editors-msg">
         <div class="editors-msg-main-container">
           <div class="editors-msg-slogan-container">
             <div class="editors-msg-slogan">
-              <p>BLAZING</p>
+              <p>SUSTAINING</p>
               <img src="/src/assets/images/editors-msg-underline-1.svg" />
             </div>
             <div class="editors-msg-slogan">
-              <p>THE</p>
+              <p>ATENEO'S</p>
               <img src="/src/assets/images/editors-msg-underline-2.svg" />
             </div>
             <div class="editors-msg-slogan">
-              <p>ATENEAN</p>
+              <p>FABLED</p>
               <img src="/src/assets/images/editors-msg-underline-3.svg" />
             </div>
             <div class="editors-msg-slogan">
-              <p>TRAIL</p>
+              <p>LEGACY</p>
               <img src="/src/assets/images/editors-msg-underline-4.svg" />
             </div>
           </div>
           <div class="editors-msg-info-container">
-            <div>
+            <div id="editor-text">
               <h1>A MESSAGE FROM THE EDITORS</h1>
               <p>
 							A TRIUMPHANT First Semester for the Blue Eagles in the University Athletic Association of the Philippines’ (UAAP) 86th Season saw the Ateneo come home with three championships across the board.
@@ -156,6 +191,7 @@
               <!-- opens article page to message from editors -->
               <a id="learn-more">Read More</a>
             </div>
+						<div id="square"></div>
           </div>
         </div>
       </div>
