@@ -143,10 +143,36 @@
 
 /* --- media queries --- */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1440px) {
   #landing .landing-text-container {
     padding: 6.5rem 1.5rem;
   }
+  #landing .landing-title p:nth-child(1) {
+    font-size: 9rem;
+  }
+  #landing .landing-title p:nth-child(2) {
+    font-size: 6rem;
+  }
+  #landing .landing-title p:nth-child(3) {
+    margin-left: -1rem;
+    font-size: 20rem;
+  }
+  #landing .landing-label {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  #landing .landing-label img {
+    width: 6rem;
+  }
+  #landing .landing-graphic {
+    top: 5rem;
+  }
+  #landing .landing-text-container {
+    padding: 9rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
   #landing .landing-title p:nth-child(1) {
     font-size: 7.5rem;
   }
@@ -164,20 +190,73 @@
   #landing .landing-label img {
     width: 5rem;
   }
+}
+
+@media only screen and (max-width: 1200px) {
   #landing .landing-graphic {
-    top: 5rem;
+		height: 90%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   #landing .landing-text-container {
-    padding: 9rem 4rem;
+    padding: 6rem 4rem;
+  }
+  #landing .landing-title p:nth-child(1) {
+    font-size: 8rem;
+  }
+  #landing .landing-title p:nth-child(2) {
+    font-size: 4rem;
+    display: inline;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 4rem;
+    display: inline;
+    margin: 0;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  #landing .landing-label {
+    padding: 0;
+    margin: 0;
+  }
+  #landing .landing-label p {
+    margin: 0;
+		font-size: 1.5rem;
+  }
+  #landing .landing-label img {
+    display: none;
+  }
+
+  #landing .landing-graphic {
+    bottom: 0;
+    height: 90%;
   }
 }
 
-@media only screen and (max-width: 750px) {
-  #landing .landing-text-container {
-    padding: 7.5rem 2.5rem;
+
+@media only screen and (max-width: 860px) {
+  #landing .landing-graphic {
+    top: unset;
+    bottom: 0;
+    height: 80%;
+  }
+  #landing .landing-graphic-front {
+    left: 60px;
+    bottom: -30px;
+    width: 50%;
+    height: auto;
+  }
+  #landing .landing-graphic-middle {
+    bottom: 0;
+  }
+  #landing .landing-graphic-back {
+    bottom: 0;
+    right: 50%;
+		translate: 50%;
+    width: 90%;
+    height: auto;
   }
 }
 
@@ -196,37 +275,8 @@
     margin: 0;
     -webkit-text-stroke: 1px #ffffff;
   }
-}
 
-@media only screen and (max-width: 640px) {
-  #landing .landing-label {
-    padding: 0;
-    margin: 0;
-  }
   #landing .landing-label p {
-    margin: 0;
-  }
-  #landing .landing-label img {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  #landing .landing-graphic {
-    top: unset;
-    bottom: 0;
-    height: 70%;
-  }
-  #landing .landing-graphic-front {
-    left: 60px;
-    bottom: 0;
-    width: 70%;
-    height: auto;
-  }
-  #landing .landing-graphic-back {
-    bottom: 0;
-    right: 0;
-    width: 90%;
-    height: auto;
+		font-size: 1.2rem;
   }
 }
