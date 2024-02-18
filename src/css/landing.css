@@ -129,7 +129,8 @@
 #landing .landing-graphic-middle {
   z-index: 2;
   bottom: 2rem;
-  right: 0;
+	right: 50%;
+	translate: 50%;
   height: 85%;
   width: auto;
 }
@@ -246,7 +247,7 @@
     height: auto;
   }
   #landing .landing-graphic-middle {
-    bottom: 0;
+    bottom: -2rem;
   }
   #landing .landing-graphic-back {
     bottom: -30%;
