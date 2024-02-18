@@ -40,10 +40,28 @@
 
 #credits .credits-WDDP-container {
   display: grid;
-  grid-template-rows: 1fr;
+	grid-template-areas: 
+								"w des"
+								"p dev";
   gap: 1rem;
   width: 100%;
   margin-top: 2rem;
+}
+
+#credits .credits-WDDP-container div:nth-child(1) {
+	grid-area: w;
+}
+
+#credits .credits-WDDP-container div:nth-child(2) {
+	grid-area: p;
+}
+
+#credits .credits-WDDP-container div:nth-child(3) {
+	grid-area: des;
+}
+
+#credits .credits-WDDP-container div:nth-child(4) {
+	grid-area: dev;
 }
 
 #credits .credits-WDDP-text-bold {
@@ -92,6 +110,7 @@
 
   #credits .credits-WDDP-container {
     gap: 1.5rem;
+		grid-template-areas: "w" "p" "des" "dev";
   }
 }
 
@@ -101,7 +120,6 @@
   }
 
   #credits .credits-WDDP-container {
-    grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     column-gap: 5rem;
   }

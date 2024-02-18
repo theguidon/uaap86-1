@@ -72,8 +72,6 @@
   margin-left: -1.5rem;
   font-size: 23rem;
   line-height: 0.8;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px #ffffff;
 }
 
 #landing .landing-label {
@@ -93,7 +91,7 @@
 }
 
 #landing .landing-label img {
-  width: 7.2rem;
+  width: 6.5rem;
 }
 
 /* graphic container and children */
@@ -160,10 +158,7 @@
     font-weight: 600;
   }
   #landing .landing-label img {
-    width: 6rem;
-  }
-  #landing .landing-graphic {
-    top: 5rem;
+    width: 6.3rem;
   }
 }
 
@@ -233,10 +228,9 @@
 
 @media only screen and (max-width: 860px) {
   #landing .landing-graphic {
-    top: unset;
+    top: 5%;
 		left: auto;
 		right: 0;
-    bottom: 0;
     height: 80%;
   }
   #landing .landing-graphic-front {
@@ -246,7 +240,7 @@
     height: auto;
   }
   #landing .landing-graphic-middle {
-    bottom: -2rem;
+    bottom: -8rem;
   }
   #landing .landing-graphic-back {
     bottom: -30%;
