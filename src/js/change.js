@@ -8,13 +8,17 @@ function change() {
 
 	if (nextView) {
 		player.src =`/landing/${i}.png`;
-		player.style.opacity = 1;
 		playerOther.style.opacity = 0;
+		setTimeout(() => {
+			player.style.opacity = 1;
+		}, 200)
 
 	} else {
 		playerOther.src =`/landing/${i}.png`;
 		player.style.opacity = 0;
-		playerOther.style.opacity = 1;
+		setTimeout(() => {
+			playerOther.style.opacity = 1;
+		}, 200)
 	}
 
 	nextView = !nextView
