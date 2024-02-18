@@ -31,6 +31,7 @@
   height: fit-content;
   background: url(../assets/images/bg-landing.png);
   background-size: cover;
+	overflow-x: hidden;
 }
 
 /* text container and children */
@@ -40,8 +41,7 @@
   color: #ffffff;
   z-index: 10;
   height: 100dvh;
-  /* padding: 6.5rem 1.5rem; */
-  padding: 8rem 5.5rem;
+  padding: 8dvh 5.5rem;
 }
 
 #landing .landing-logo {
@@ -100,7 +100,7 @@
 
 #landing .landing-graphic {
   position: absolute;
-  right: 0;
+	left: 50%;
   top: 0;
   height: 110%;
   aspect-ratio: 0.75;
@@ -137,8 +137,8 @@
 
 #landing .landing-graphic-back {
   z-index: 1;
-  bottom: 0;
-  width: 100%;
+  bottom: 1rem;
+  width: 150%;
   height: auto;
 }
 
@@ -164,9 +164,6 @@
   }
   #landing .landing-graphic {
     top: 5rem;
-  }
-  #landing .landing-text-container {
-    padding: 9rem 4rem;
   }
 }
 
@@ -237,6 +234,8 @@
 @media only screen and (max-width: 860px) {
   #landing .landing-graphic {
     top: unset;
+		left: auto;
+		right: 0;
     bottom: 0;
     height: 80%;
   }
@@ -255,6 +254,21 @@
 		translate: 50%;
     height: auto;
   }
+  #landing .landing-title p:nth-child(1) {
+    font-size: 6rem;
+  }
+  #landing .landing-title p:nth-child(2) {
+    font-size: 3rem;
+    display: inline;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 3rem;
+    display: inline;
+  }
+  #landing .landing-label p {
+    margin: 0;
+		font-size: 1.2rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -271,6 +285,10 @@
     display: inline;
     margin: 0;
     -webkit-text-stroke: 1px #ffffff;
+  }
+  #landing .landing-graphic-back {
+    bottom: -30%;
+		width: 100%;
   }
 
   #landing .landing-label p {
