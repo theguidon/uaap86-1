@@ -40,9 +40,7 @@
 
 #credits .credits-WDDP-container {
   display: grid;
-	grid-template-areas: 
-								"w des"
-								"p dev";
+	grid-template-areas: "w" "p" "des" "dev";
   gap: 1rem;
   width: 100%;
   margin-top: 2rem;
@@ -78,6 +76,13 @@
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.02rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 13rem);
+	grid-template-rows: repeat(4, 1.5rem);
+}
+
+#credits .credits-names p {
+	width: min-content;
 }
 
 #top-left-blur {
@@ -110,7 +115,6 @@
 
   #credits .credits-WDDP-container {
     gap: 1.5rem;
-		grid-template-areas: "w" "p" "des" "dev";
   }
 }
 
@@ -127,6 +131,10 @@
   #credits .credits-head-text {
     font-size: 2rem;
   }
+
+  #credits .credits-names {
+		grid-template-rows: repeat(4, 1.5rem);
+	}
 }
 
 @media (min-width: 1280px) {
