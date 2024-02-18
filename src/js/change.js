@@ -11,7 +11,7 @@ function fade() {
 	setTimeout(function t() {
 		change()
 		player.style.opacity = 1;
-	}, 800);
+	}, 400);
 }
 
 setInterval(fade, 4000);
