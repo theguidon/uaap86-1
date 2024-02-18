@@ -160,7 +160,25 @@
 }
 
 @media only screen and (max-width: 640px) {
+  #editors-msg .editors-msg-slogan-container {
+		margin: 3rem 2rem 2rem;
+  }
+  #editors-msg .editors-msg-slogan-container p {
+    font-size: 2.5rem;
+  }
+	#editors-msg .editors-msg-info-container #editor-text {
+		margin: 5rem 1.5rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
+  #editors-msg .editors-msg-slogan-container {
+		margin: 3rem 1.5rem 2rem;
+  }
+  #editors-msg .editors-msg-slogan-container p {
+    font-size: 2rem;
+  }
+	#editors-msg .editors-msg-info-container #editor-text {
+		margin: 5rem 0.75rem;
+	}
 }

@@ -23,7 +23,6 @@
   inset: 2.5rem auto auto 2rem;
   cursor: pointer;
   z-index: 999;
-	width: 1.75rem;
 }
 
 /* background (shared by landing and editors-msg divs) */
@@ -145,9 +144,6 @@
 /* --- media queries --- */
 
 @media only screen and (max-width: 1440px) {
-  #landing .landing-text-container {
-    padding: 6.5rem 1.5rem;
-  }
   #landing .landing-title p:nth-child(1) {
     font-size: 9rem;
   }
@@ -253,7 +249,7 @@
     bottom: 0;
   }
   #landing .landing-graphic-back {
-    bottom: -20%;
+    bottom: -30%;
     right: 50%;
 		translate: 50%;
     height: auto;
@@ -278,5 +274,20 @@
 
   #landing .landing-label p {
 		font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #landing .landing-text-container {
+    padding: 5rem 1.5rem;
+  }
+  #landing .landing-title p:nth-child(1) {
+    font-size: 4rem;
+  }
+  #landing .landing-title p:nth-child(2) {
+    font-size: 2rem;
+  }
+  #landing .landing-title p:nth-child(3) {
+    font-size: 2rem;
   }
 }
