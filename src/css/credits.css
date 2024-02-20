@@ -46,22 +46,6 @@
   margin-top: 2rem;
 }
 
-#credits .credits-WDDP-container div:nth-child(1) {
-	grid-area: w;
-}
-
-#credits .credits-WDDP-container div:nth-child(2) {
-	grid-area: p;
-}
-
-#credits .credits-WDDP-container div:nth-child(3) {
-	grid-area: des;
-}
-
-#credits .credits-WDDP-container div:nth-child(4) {
-	grid-area: dev;
-}
-
 #credits .credits-WDDP-text-bold {
   color: #fff;
   font-family: "GT America";
@@ -76,8 +60,6 @@
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.02rem;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 13rem);
 }
 
 #credits .credits-names p {
