@@ -3,28 +3,6 @@ const basePath = "";
 export const data = {
   categories: [
     {
-      category: "3x3 Women’s Basketball",
-      coach: "Bacon Austria",
-      captains: ["Sandra Villacruz "],
-      "captains-images": [],
-      article: {
-        "image-left": basePath + "/article-photos/3x3 basketball-women-1.jpg",
-        "image-middle": basePath + "/article-photos/3x3 basketball-women-2.jpg",
-        "image-right": basePath + "/article-photos/3x3 basketball-women-3.jpg",
-        title: "Victory in every dribble",
-        writer: "Sean Jhoyze Borres",
-        "first-two": "ELECTRIFYING THE ",
-        text: "half-court that led to a brilliant third-place victory in Season 85, the Ateneo Women’s 3x3 Basketball Team is ready to drive their way back onto the hardwood. Last season’s triumph was the Blue Eagles’ first podium finish since bagging the bronze during the UAAP’s inaugural 3x3 basketball tournament in Season 80.\n\nWith familiar faces, the team has been building their ranks and training hard to refine their skills, making them a force to be reckoned with. Team Captain Sandra Villacruz is ready to lead the Katipunan-based squad in both their on-and off-the-court contributions. Yunika Angala, Junize Calago, and Kacey Dela Rosa will join Villacruz in seeking another podium finish. Head Coach Bacon Austria will draw from experience to guide the squad in their minutes on the court.\n\nEager to build their momentum and showcase their full potential, the Blue Eagles are prepared to fight for the Blue and White with nimble footwork, steady defense, and heart for the game.",
-      },
-      card: {
-        gradient:
-          "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
-        "background-image": basePath + "/card-background/3x3basketball.jpg",
-        "side-image": basePath + "/card-side/3x3basketball.png",
-        "title-color": "#FFFFFF",
-      },
-    },
-    {
       category: "Baseball",
       coach: "Bocc Bernardo",
       "coach-image": basePath + "/coaches/baseball.png",
@@ -45,6 +23,28 @@ export const data = {
         "background-image": basePath + "/card-background/baseball.jpg",
         "side-image": basePath + "/card-side/baseball.png",
         "title-color": "#FFE07C",
+      },
+    },
+    {
+      category: "3x3 Women’s Basketball",
+      coach: "Bacon Austria",
+      captains: ["Sandra Villacruz "],
+      "captains-images": [],
+      article: {
+        "image-left": basePath + "/article-photos/3x3 basketball-women-1.jpg",
+        "image-middle": basePath + "/article-photos/3x3 basketball-women-2.jpg",
+        "image-right": basePath + "/article-photos/3x3 basketball-women-3.jpg",
+        title: "Victory in every dribble",
+        writer: "Sean Jhoyze Borres",
+        "first-two": "ELECTRIFYING THE ",
+        text: "half-court that led to a brilliant third-place victory in Season 85, the Ateneo Women’s 3x3 Basketball Team is ready to drive their way back onto the hardwood. Last season’s triumph was the Blue Eagles’ first podium finish since bagging the bronze during the UAAP’s inaugural 3x3 basketball tournament in Season 80.\n\nWith familiar faces, the team has been building their ranks and training hard to refine their skills, making them a force to be reckoned with. Team Captain Sandra Villacruz is ready to lead the Katipunan-based squad in both their on-and off-the-court contributions. Yunika Angala, Junize Calago, and Kacey Dela Rosa will join Villacruz in seeking another podium finish. Head Coach Bacon Austria will draw from experience to guide the squad in their minutes on the court.\n\nEager to build their momentum and showcase their full potential, the Blue Eagles are prepared to fight for the Blue and White with nimble footwork, steady defense, and heart for the game.",
+      },
+      card: {
+        gradient:
+          "linear-gradient(90deg, rgba(142, 90, 255, 0.85) 54.27%, rgba(255, 211, 140, 0.85) 103.02%)",
+        "background-image": basePath + "/card-background/3x3basketball.jpg",
+        "side-image": basePath + "/card-side/3x3basketball.png",
+        "title-color": "#FFFFFF",
       },
     },
     {
@@ -161,7 +161,7 @@ export const data = {
       },
     },
     {
-      category: "Streetdance",
+      category: "Street Dance",
       coach: "Jesse Gotangco",
       captains: ["Rian Tirol"],
       //Marco Austriaco and Xicu Garcia
