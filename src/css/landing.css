@@ -196,6 +196,7 @@
   #landing .landing-title p:nth-child(2) {
     font-size: 4rem;
     display: inline;
+		margin-left: 0.15rem;
     -webkit-text-stroke: 1px #ffffff;
   }
   #landing .landing-title p:nth-child(3) {
@@ -212,6 +213,7 @@
   }
   #landing .landing-label p {
     margin: 0;
+		margin-left: -0.10rem;
 		font-size: 1.5rem;
   }
   #landing .landing-label img {
@@ -259,7 +261,6 @@
     display: inline;
   }
   #landing .landing-label p {
-    margin: 0;
 		font-size: 1.2rem;
   }
 }
