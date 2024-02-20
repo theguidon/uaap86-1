@@ -202,6 +202,7 @@
     font-size: 4rem;
     display: inline;
     margin: 0;
+		-webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #ffffff;
   }
 
