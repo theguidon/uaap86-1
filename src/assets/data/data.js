@@ -1,4 +1,4 @@
-const basePath = "";
+const basePath = "/uaap-86-second-semester-primer/";
 
 export const data = {
   categories: [
