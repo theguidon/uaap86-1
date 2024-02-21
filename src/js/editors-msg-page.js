@@ -17,22 +17,14 @@ const page = `
 
 editorsMsgPage.innerHTML = page;
 
-export const EDITOR_MSG_PAGE_KEY = "editors-msg";
-
 document
   .querySelector("#editors-msg-page .back")
   .addEventListener("click", () => {
     document.querySelector("body").style.overflow = "auto";
     document.querySelector("#editors-msg-page").style.display = "none";
-    window.history.pushState({ page: "home" }, "home", "/");
   });
 
 document.querySelector("#learn-more").addEventListener("click", () => {
   document.querySelector("body").style.overflow = "hidden";
   document.querySelector("#editors-msg-page").style.display = "block";
-  window.history.pushState(
-    { page: EDITOR_MSG_PAGE_KEY },
-    EDITOR_MSG_PAGE_KEY,
-    `/${EDITOR_MSG_PAGE_KEY}`
-  );
 });
